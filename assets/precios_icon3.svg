@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7585F0;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#E4B75C;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#DE5A5A;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#D4F4FF;}
+	.st6{fill:#D4F4FF;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:#F2DF98;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:#FFFFFF;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:#87BF8C;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:#7585F0;}
+	.st11{fill:#EDD4B4;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:#E4B75C;}
+	.st13{fill:#AACF9A;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:#E8C673;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:#F2DF98;}
+	.st16{fill:#D0524E;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st17{fill:#87BF8C;}
+	.st18{fill:#AACF9A;}
+	.st19{fill:#DE5A5A;}
+	.st20{fill:#E8C673;}
+	.st21{fill:#7ACBAA;}
+	.st22{fill:#EFCDC2;}
+	.st23{fill:#6B7DFA;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="GUIDELINES">
+</g>
+<g id="ICON_1_">
+	<g>
+		<g>
+			<g>
+				<g>
+					<path class="st6" d="M444.6,382.4c17.3,0,31.4-14,31.4-31.4V89c0-17.3-14-31.4-31.4-31.4H67.4C50.1,57.6,36,71.6,36,89v262
+						c0,17.3,14,31.4,31.4,31.4"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<polyline class="st8" points="431,287.5 431,337.4 81,337.4 81,102.6 431,102.6 431,231.6 					"/>
+				</g>
+			</g>
+		</g>
+		<path class="st0" d="M377,382.4h125v37.9c0,18.9-15.3,34.1-34.1,34.1H44.1c-18.9,0-34.1-15.3-34.1-34.1v-37.9h143"/>
+		<path class="st7" d="M377,382.4v16c0,11.1-9,20.1-20.1,20.1H155.1c-11.1,0-20.1-9-20.1-20.1v-16h158"/>
+		<g>
+			<g>
+				<g>
+					<path class="st8" d="M205,231.6L205,231.6c0-13.5-3.9-26.7-11.2-38l-2.5-3.8h-48.6l-2.5,3.8c-7.3,11.3-11.2,24.5-11.2,38v0"/>
+					<g>
+						<path class="st3" d="M167,237.7c-5.1-6.7-13.1-11.1-22.2-11.1c-5.9,0-11.3,1.8-15.8,5v105.8h38"/>
+						<line class="st1" x1="129" y1="337.4" x2="167" y2="337.4"/>
+						<path class="st1" d="M167,237.7c-5.1-6.7-13.1-11.1-22.2-11.1c-5.9,0-11.3,1.8-15.8,5v105.8"/>
+						<path class="st7" d="M167,274.9v62.5h38V231.6c-4.5-3.1-9.9-5-15.8-5c-9.1,0-17.1,4.4-22.2,11.1"/>
+					</g>
+					<polygon class="st0" points="142.7,189.8 191.3,189.8 167,152.4 					"/>
+				</g>
+			</g>
+			<line class="st1" x1="264.7" y1="207.5" x2="356" y2="207.5"/>
+			<line class="st1" x1="264.7" y1="163" x2="386" y2="163"/>
+			<line class="st1" x1="264.7" y1="252.1" x2="386" y2="252.1"/>
+			<line class="st1" x1="264.7" y1="296.6" x2="356" y2="296.6"/>
+		</g>
+	</g>
+</g>
+</svg>

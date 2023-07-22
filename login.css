@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Poppins&display=swap');
+
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor1: #E9F8F9;
+    --mainColor2: #F5EFE7;
+    --mainColor3: #D8C4B6;
+    --mainColor4: #C0EEF2;
+    --mainColor5: #537FE7;
+    --mainColor6: #4F709C;
+    --mainColor7: #213555;
+    --mainColor8: #181823;
+    --fontTitle: 'Geologica', sans-serif;
+    --fontText: 'Poppins', sans-serif;
+    --fontSizeSectionTitle: 3.5rem;
+    --fontSizeTitle: 2.5rem;
+    --fontSizeSubtitle: 2rem;
+    --fontSizeText: 1.8rem;
+    --fontSizeComment: 1.5rem;
+    --colorTextDark: #151515;
+    --colorTextLight: #ededed;
+    --borderColorInputs: #dddddd;
+    --priceColor: #749B48;
+    --transitionFunction: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes wobble {
+    0% {transform: translateX(0) rotate(0deg);}
+    15% {transform: translateX(-3rem) rotate(-5deg);}
+    30% {transform: translateX(1.5rem) rotate(3deg);}
+    45% {transform: translateX(-1.5rem) rotate(-3deg);}
+    60% {transform: translateX(.9rem) rotate(2deg);}
+    75% {transform: translateX(-0.6rem) rotate(-1deg);}
+    100% {transform: translateX(0) rotate(0deg);}
+}
+
+@keyframes slide {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+
+
+
+/* GLOBAL */
+
+html {
+    font-size: 10px;
+    font-family: var(--fontText);
+    background-color: #F4F7FC;
+    /* color: var(--colorTextLight);
+    background-color: var(--mainColor8); */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.directionColumn {
+    flex-direction: column;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.colorLight {
+    color: var(--colorTextLight);
+}
+
+.colorDark {
+    color: var(--colorTextDark);
+}
+
+.fontBolder {
+    font-weight: bolder;
+}
+
+.fontLighter {
+    font-weight: lighter;
+}
+
+
+
+
+/* MAIN */
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Welcome Section */
+
+.section_welcome {
+    width: 55%;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: #537FE7;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.welcome_logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+}
+
+.logo_img {
+    transition: transform .35s var(--transitionFunction);
+}
+
+.logo_img:hover {
+    transform: scale(1.1);
+}
+
+.welcome_title {
+    color: var(--mainColor3);
+    font-size: 4.5rem;
+    font-family: var(--fontTitle);
+    letter-spacing: 1px;
+    margin-bottom: 6rem;
+    text-shadow: -.5rem .5rem 1rem var(--colorTextDark);
+}
+
+.welcome__a {
+    color: var(--mainColor3);
+    padding: 0 .8rem .5rem;
+    display: inline-block;
+    position: relative;
+    transition: color .2s, letter-spacing .5s;
+    transition-timing-function: var(--transitionFunction);
+}
+
+.welcome__a::before, .welcome__a::after {
+    content: '';
+    width: 0%;
+    height: .4rem;
+    background-color: var(--mainColor4);
+    box-shadow: -.5rem .5rem 1rem 0 var(--colorTextDark);
+    position: absolute;
+    bottom: 0;
+    transition: width .5s var(--transitionFunction);
+}
+
+.welcome__a::before {
+    left: 50%;
+}
+
+.welcome__a::after {
+    right: 50%;
+}
+
+.welcome__a:hover::before, .welcome__a:hover::after {
+    width: 50%;
+}
+
+.welcome__a:hover {
+    color: var(--mainColor4);
+    letter-spacing: 3px;
+}
+
+.welcome_text {
+    width: 85%;
+    text-align: center;
+    font-size: var(--fontSizeText);
+    text-shadow: -.2rem .2rem .2rem var(--colorTextDark);
+}
+
+.section_login {
+    width: 45%;
+    height: 100%;
+}
+
+
+
+
+/* Login Section */
+
+.section_login {
+    padding: 8rem 3rem;
+}
+
+.login_img {
+    width: 15rem;
+    height: 15rem;
+    filter: drop-shadow(0 0 .5rem var(--colorTextDark));
+}
+
+.login_title {
+    margin: 8rem 0 4rem;
+    font-size: var(--fontSizeSectionTitle);
+    font-family: var(--fontTitle);
+    color: var(--mainColor7);
+    width: fit-content;
+    position: relative;
+}
+
+.login_title::before, .login_title::after {
+    content: '';
+    height: 3px;
+    background-color: var(--borderColorInputs);
+    position: absolute;
+}
+
+.login_title::before {
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+}
+
+.login_title::after {
+    width: 60%;
+    left: 20%;
+    bottom: -.75rem;
+}
+
+.login_form {
+    width: 75%;
+    row-gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.form_container {
+    width: 100%;
+}
+
+.form_container:not(:last-of-type) {
+    padding-left: 2rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+}
+
+.container_label i {
+    color: var(--mainColor6);
+    font-size: var(--fontSizeTitle);
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+
+.container_input {
+    flex-grow: 1;
+    padding: 1rem 1.5rem 1rem 2rem;
+    font-size: var(--fontSizeText);
+    font-family: inherit;
+    border: none;
+    outline: none;
+    position: relative;
+    background-color: rgba(192, 238, 242, .4);
+    border-radius: 0 2rem 2rem 0;
+    border-left: 2px solid var(--mainColor6);
+}
+
+.container_input:focus {
+    background-color: var(--mainColor4);
+}
+
+.container_input::placeholder {
+    font-size: inherit;
+    color: var(--colorTextDark);
+    letter-spacing: 1px;
+}
+
+.container_checkbox {
+    margin-right: .5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.form_container:last-of-type {
+    margin-top: 2rem;
+}
+
+.form_container:last-of-type .container_label {
+    font-size: var(--fontSizeText);
+}
+
+.form_container:last-of-type span {
+    flex-grow: 1;
+}
+
+.container_link {
+    font-size: var(--fontSizeComment);
+    color: var(--mainColor6);
+    position: relative;
+    transition: color .2s;
+}
+
+.container_link::before {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: var(--mainColor5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: width .5s var(--transitionFunction);
+}
+
+.container_link:hover {
+    color: var(--mainColor5);
+}
+
+.container_link:hover::before {
+    width: 100%;
+}
+
+.form_submit {
+    margin-top: 5rem;
+    padding: 1.5rem 4rem;
+    text-transform: uppercase;
+    font-family: var(--fontTitle);
+    font-size: var(--fontSizeSubtitle);
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 3rem;
+    background-color: var(--mainColor5);
+    transition: transform .5s, box-shadow .5s;
+    transition-timing-function: var(--transitionFunction);
+}
+
+.form_submit:hover {
+    background-color: #466BC2;
+    transform: translateY(-1rem);
+    box-shadow: 0 .5rem 1rem 0 var(--colorTextDark);
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1920px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/* Laptop L (1440px) */
+
+@media only screen and (max-width: 1440px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+/* Laptop (1024px) */
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 6px;
+    }
+
+    .logo_img {
+        width: 30rem;
+    }
+}
+
+/* Tablet (768px) */
+
+@media only screen and (max-width: 768px) {
+    .welcome_title {
+        width: 70%;
+        text-align: center;
+    }
+
+    /* SECTION LOGIN */
+
+    .login_title {
+        margin: 2rem 0 1rem;
+    }
+
+    .login_form {
+        width: 100%;
+    }
+}
+
+/* Mobile L (425px) */
+
+@media only screen and (max-width: 425px) {
+
+    #main {
+        flex-wrap: wrap;
+    }
+
+    .section_welcome {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .logo_img {
+        width: 20rem;
+    }
+
+    .section_login {
+        width: 100%;
+        height: fit-content;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .login_title {
+        margin: 4rem 1.5rem;
+    }
+}
+
+/* Mobile M (375px) */
+
+@media only screen and (max-width: 375px) {
+
+    .section_welcome {
+        height: 35vh;
+    }
+
+    .login_form {
+        margin-bottom: 3rem;
+    }
+}
+
+/* Mobile S (320px) */
+
+@media only screen and (max-width: 320px) {
+    .section_welcome {
+        height: 45vh;
+    }
+
+    .login_title {
+        margin: 2rem .5rem;
+    }
+
+    .login_form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

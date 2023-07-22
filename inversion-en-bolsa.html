@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invertir en bolsa | Economipedia</title>
+    <link rel="stylesheet" href="inversion-en-bolsa.css">
+    <link rel="icon" href="./assets/logoAzul.ico">
+    <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex alignCenter">
+            <div class="navbar_logo flex">
+                <a href="index.html" class="logo_link flex">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1">
+                </a>
+            </div>
+            <ul class="navbar_ul flex alignCenter">
+                <li class="navbar__li">
+                    <a href="programas.html" class="li_link colorLight">Programas</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="cursos.html" class="li_link colorLight">Cursos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="recursos.html" class="li_link colorLight">Recursos gratuitos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="login.html" class="li_link colorLight link_login">Iniciar sesión</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="precios.html" class="li_link link_precios fontBolder colorDark">$ Precios</a>
+                </li>
+            </ul>
+            <div class="navbar_search">
+                <input type="text" class="search_input" placeholder="Buscar...">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="navbar_mobile">
+                <input type="checkbox" id="mobile_check">
+                <label for="mobile_check" class="mobile_label">
+                    <span></span>
+                </label>
+                <ul class="mobile_ul flex directionColumn alignCenter">
+                    <li class="mobile__li">
+                        <a href="precios.html" class="mobile__li-link mobile_link-prices colorDark fontBolder">$ Precios</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="login.html" class="mobile__li-link mobile_link-login colorLight">Iniciar sesión</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="index.html" class="mobile__li-link colorLight">Inicio</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="programas.html" class="mobile__li-link colorLight">Programas</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="cursos.html" class="mobile__li-link colorLight">Cursos</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="recursos.html" class="mobile__li-link colorLight">Recursos gratuitos</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile-redes">Redes
+                        <ul class="mobile-redes_ul flex flexWrap justifyCenter">
+                            <li class="mobile-redes__li">
+                                <a href="https://www.facebook.com/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.linkedin.com/company/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-linked-in" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://twitter.com/economipedia" class="mobile-social flex alignCenter justifyCenter mobile-twitter" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.youtube.com/c/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-youtube" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.instagram.com/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-instagram" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="section_home flex alignCenter justifyCenter">
+            <div class="home_text">
+                <h1 class="home__h1 colorLight fontLighter">Todo lo que necesitas para <span>invertir en bolsa</span></h1>
+                <p class="home__p colorLight">
+                    Si buscas ideas de inversión, actualidad de mercados, formación, fondos de inversión o el mejor bróker para ti, aquí encontrarás todo lo que necesitas para invertir en bolsa y para aprender a invertir. ¡Explora esta página y aprende a invertir en bolsa como un profesional!
+                </p>
+                <ul class="home__ul flex directionColumn">
+                    <li class="home__ul-li">
+                        <a href="#highlight" class="homeLink">
+                            <i class="fa-solid fa-caret-right"></i>Destacados
+                        </a>
+                    </li>
+                    <li class="home__ul-li">
+                        <a href="#lastArticles" class="homeLink">
+                            <i class="fa-solid fa-caret-right"></i>Últimos artículos
+                        </a>
+                    </li>
+                    <li class="home__ul-li">
+                        <a href="#learn" class="homeLink">
+                            <i class="fa-solid fa-caret-right"></i>Aprender a invertir
+                        </a>
+                        <ul class="home__ul inside-li flex directionColumn">
+                            <li class="home__ul-li">
+                                <a href="#guides" class="homeLink">
+                                    <i class="fa-solid fa-caret-right"></i>Guías de inversión en bolsa
+                                </a>
+                            </li>
+                            <li class="home__ul-li">
+                                <a href="#keyConcepts" class="homeLink">
+                                    <i class="fa-solid fa-caret-right"></i>Conceptos clave
+                                </a>
+                            </li>
+                            <li class="home__ul-li">
+                                <a href="#courses" class="homeLink">
+                                    <i class="fa-solid fa-caret-right"></i>Cursos de inversión en bolsa
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="home_img">
+                <img src="./assets/inversionEnBolsa_homeImg.avif" alt="Joven aprendiendo educación financiera" class="home__img">
+            </div>
+        </section>
+        <section id="highlight" class="section">
+            <h2 class="highlight_h2">Destacados</h2>
+            <div class="highlight_container flex alignCenter">
+                <div class="highlight_containerImg">
+                    <img src="./assets/inversionEnBolsa_highlightImg.avif" alt="Imagen de la guía Mejores brokers de España" class="highlight__img">
+                </div>
+                <div class="highlight_containerText flex directionColumn alignCenter">
+                    <a href="" class="highlight__title fontBolder">Guía mejores brokers para invertir en España</a>
+                    <p class="highlight__text">
+                        Te contamos cuáles son <span class="fontBolder">los mejores brokers para invertir en bolsa desde España</span>, para que puedas invertir de manera segura y fiable, en una amplia variedad de productos y mercados.
+                    </p>
+                    <p class="highlight__text">
+                        Hemos seleccionado los que creemos que son los 5 mejores brokers para operar online y que por tanto <span class="fontBolder">recomendamos desde Economipedia</span>.
+                    </p>
+                    <a href="" class="highlight__link colorLight">Ver guía</a>
+                </div>
+            </div>
+        </section>
+        <section id="lastArticles" class="section flex directionColumn alignCenter">
+            <h2 class="section_h2">Últimos árticulos de educación financiera</h2>
+            <div class="container_articles flex flexWrap justifyCenter">
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg1.avif" alt="Imagen de la palabra bancarrota en inglés" class="article_img">
+                    <h5 class="article_title">¿Cuáles son las mayores bancarrotas de la historia?</h5>
+                </a>
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg2.avif" alt="Imagen de un mapa con las empresas más grandes del mundo" class="article_img">
+                    <h5 class="article_title">Empresas más grandes del mundo</h5>
+                </a>
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg3.avif" alt="Imagen del artículo ¿Qué está pasando con la renta fija y cómo puedes incluirla en tu cartera?" class="article_img">
+                    <h5 class="article_title">¿Qué está pasando con la renta fija y cómo puedes incluirla en tu cartera?</h5>
+                </a>
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg4.avif" alt="Imagen de un distintas monedas del mundo" class="article_img">
+                    <h5 class="article_title">¿Funcionan los tipos de cambio múltiples?</h5>
+                </a>
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg5.avif" alt="Representación del carry trade" class="article_img">
+                    <h5 class="article_title">¿Qué es el carry trade y cómo nos afecta?</h5>
+                </a>
+                <a class="article">
+                    <img src="./assets/inversionEnBolsa_lastArticlesImg6.avif" alt="Representación de la protección a la inflación" class="article_img">
+                    <h5 class="article_title">¿Cómo puedo proteger mi dinero de la inflación?</h5>
+                </a>
+            </div>
+        </section>
+        <div class="publish flex directionColumn alignCenter">
+            <h5 class="publish_title">¿Necesitas un bróker para tus inversiones?</h5>
+            <p class="publish_text">Mira nuestras recomendaciones</p>
+            <div class="publish_container flex">
+                <a href="" class="publish__recomendation degiro flex directionColumn alignCenter colorDark">
+                    <img src="./assets/logoDegiro.png" alt="Logo de Degiro" class="recomendation_img">
+                    <h6 class="recomendation_title">Degiro</h6>
+                    <p class="recomendation_text">
+                        Sencilla, intuitiva y comisiones bajas
+                    </p>
+                    <span class="recomendation_more colorLight fontBolder">Ver más</span>
+                </a>
+                <a href="" class="publish__recomendation xtb flex directionColumn alignCenter colorDark side-right">
+                    <img src="./assets/logoXTB.png" alt="Logo de XTB" class="recomendation_img">
+                    <h6 class="recomendation_title">XTB</h6>
+                    <p class="recomendation_text">
+                        0% comisiones en acciones y ETFs
+                    </p>
+                    <span class="recomendation_more colorLight fontBolder">Ver más</span>
+                </a>
+            </div>
+        </div>
+        <section id="learn" class="section flex directionColumn alignCenter">
+            <h2 class="section_h2">Aprender a invertir</h2>
+            <p class="section_text">
+                Si quieres aprender a invertir en bolsa, en inmuebles o en cualquier otro activo, no te pierdas nuestras últimas guías de inversión, los conceptos clave que todo el mundo tiene que saber para saber invertir con éxito y los mejores cursos de inversión en bolsa, para que puedas pasar de principiante a experto.
+            </p>
+            <section id="guides" class="section flex directionColumn alignCenter">
+                <h2 class="section_h2">Guías de inversión en bolsa</h2>
+                <article class="section_guide flex">
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg1.avif" alt="Representación del mercado" class="guide__img">
+                    </div>
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            ¿Es posible batir al mercado?
+                        </a>
+                        <p class="guide__text">
+                            Si quieres crear un fondo de emergencia y no quedarte en el intento, tienes que tener unos objetivos claros. El fondo de emergencia lo tienes que crear con constancia, y para eso tienes que tener claro cuáles son sus beneficios.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            Cómo invertir en bolsa para no perder dinero: Guía básica
+                        </a>
+                        <p class="guide__text">
+                            ¿Piensas que la bolsa es un casino y que puedes perderlo todo? A priori, la respuesta es que puede ser prácticamente imposible perderlo todo, pero (enorme y rotundo) depende, es decir, depende de ti. Analicemos los motivos.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg2.avif" alt="Imagen de la guía ¿Puedes perderlo todo en bolsa?" class="guide__img side-right">
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg3.avif" alt="Imagen de la guía Tipos de intereses, la economía y los mercados" class="guide__img">
+                    </div>
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            ¿Cómo afectan los tipos de interés a la economía y los mercados?
+                        </a>
+                        <p class="guide__text">
+                            ¿Sabías que las decisiones que toman los bancos centrales afectan directamente a tu bolsillo? Con esta guía vas a poder anticiparte a los movimientos de los mercados y tomar mejores decisiones a la hora de invertir o ahorrar. ¡Vamos a ello!
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            ¿Cómo determinar tu perfil de riesgo?
+                        </a>
+                        <p class="guide__text">
+                            Las inversiones sin finalidad no tienen sentido y los bancos no te van a ayudar a aclararte. Por eso, el primer paso para invertir en bolsa es conocer tu yo inversor. Solo tu puedes conseguirlo. Nosotros con esta guía te ayudamos a ayudarte.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg4.avif" alt="Representación de conocer tu yo inversor" class="guide__img side-right">
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg5.avif" alt="Imagen de una persona que invierte en acciones eficazmente" class="guide__img">
+                    </div>
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            3 consejos imprescindibles para invertir en acciones
+                        </a>
+                        <p class="guide__text">
+                            Consejos que te ayudarán a invertir mejor. Es cierto que existen muchos más, pero hoy te traigo estos tres fundamentales.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            Índices MSCI, ¿cómo invertir en ellos?
+                        </a>
+                        <p class="guide__text">
+                            Además de servir para medir la rentabilidad de los fondos activos, estos índices son la base para la construcción de gran cantidad de fondos de gestión pasiva, incluidos los famosos ETFs. En esta guía te explicaremos cómo invertir en ellos.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg6.avif" alt="Imagen de un mapa antiguo" class="guide__img side-right">
+                    </div>
+                </article>
+                <article class="section_guide flex">
+                    <div class="guide_containerImg">
+                        <img src="./assets/inversionEnBolsa_guidesImg7.avif" alt="Imagen de criptomonedas" class="guide__img">
+                    </div>
+                    <div class="guide_containerText flex directionColumn alignCenter">
+                        <a href="" class="guide__title fontBolder">
+                            ¿Cómo invertir en criptomonedas?
+                        </a>
+                        <p class="guide__text">
+                            Las mal llamadas criptomonedas llegaron a nuestras vidas como el alumno aventajado de la mayor innovación tecnológica de la historia de la humanidad, la tecnología blockchain. En esta guía te vamos a explicar cómo puedes invertir en ellas.
+                        </p>
+                        <a href="" class="guide__link colorLight">Ver guía</a>
+                    </div>
+                </article>
+                <a href="" class="section_more">
+                    <i class="fa-solid fa-angles-right"></i>Ver todas las guías de finanzas y educación financiera<i class="fa-solid fa-angles-left"></i>
+                </a>
+            </section>
+            <section id="keyConcepts" class="section flex directionColumn alignCenter">
+                <h2 class="section_h2">Conceptos clave para invertir</h2>
+                <div class="content_keyConcept flex">
+                    <aside class="keyConcept_aside">
+                        <h6 class="aside_title">¿Cuánto dinero se necesita para invertir en la bolsa?</h6>
+                        <p class="aside_text">
+                            Lo primero que debes hacer al empezar a invertir en bolsa es ordenar tus finanzas personales y así saber el dinero que vas a invertir.
+                        </p>
+                        <p class="aside_text">
+                            Dentro de las finanzas personales, una de los conceptos fundamentales es el fondo de emergencia.
+                        </p>
+                        <p class="aside_text">
+                            Una vez tienes claro cuánto es tu fondo de emergencia, el resto del dinero que tengas ahorrado podrás invertirlo con seguridad.
+                        </p>
+                        <h6 class="aside_title">¿Desde dónde invertir?</h6>
+                        <p class="aside_text">
+                            El siguiente paso es saber qué aplicación utilizar para invertir. Para ello necesitas un bróker, que es el intermediario mediante el cuál compras activos financieros.
+                        </p>
+                        <p class="aside_text">
+                            También debes conocer los vehículos de inversión a través de los cuáles vas a invertir en el mercado, como los fondos de inversión y los ETFs.
+                        </p>
+                        <h6 class="aside_title">¿Cómo empezar a invertir en bolsa?</h6>
+                        <p class="aside_text">
+                            Una vez sabes cuánto puedes invertir, la siguiente pregunta es: ¿Cómo?
+                        </p>
+                        <p class="aside_text">
+                            Para ello cada persona debe conocer su perfil de riesgo. Debes descubrir tu yo inversor.
+                        </p>
+                        <p class="aside_text">
+                            Parece algo obvio pero no lo es. Es importantísimo que sepas invertir de acuerdo a tu perfil.
+                        </p>
+                        <p class="aside_text">
+                            Cuando conoces tu perfil de inversor debes entender cómo funcionan los distintos activos financieros (acciones, bonos, materias primas…) y establecer la asignación de activos adecuada para tu perfil de inversor.
+                        </p>
+                        <p class="aside_text">
+                            Además, es importante que sepas realizar una buena gestión de carteras y así aprovecharte de estrategias de inversión que te permitan obtener la máxima rentabilidad posible para tu perfil de inversor. Uno de los conceptos que mejor debes conocer y utilizar es el interés compuesto.
+                        </p>
+                    </aside>
+                    <div class="keyConcept_principal flex directionColumn">
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Fondo de emergencia:
+                            </a>
+                            <p class="principal__text">
+                                Antes de invertir es necesario que construyas tu fondo de emergencia, para afrontar imprevistos.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Perfil de inversor:
+                            </a>
+                            <p class="principal__text">
+                                El perfil inversor se define según el nivel de tolerancia al riesgo financiero que está dispuesto a asumir un inversor, entendiendo riesgo financiero como la capacidad de asumir pérdidas.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Bróker:
+                            </a>
+                            <p class="principal__text">
+                                Un bróker es una persona o una empresa que intermedia en la compra-venta de productos financieros cargando una comisión al inversor por ese servicio.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Asignación de activos:
+                            </a>
+                            <p class="principal__text">
+                                Cuando invertimos, no es aconsejable hacerlo en un único tipo de activo. La asignación de activos, es la decisión que toma un inversor relativa a la estructura de su cartera.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Acciones:
+                            </a>
+                            <p class="principal__text">
+                                Al adquirir acciones se reciben unos derechos sobre la empresa y se obtiene la categoría de socio. De esta forma el comprador de la acción se convierte en dueño de la empresa en una proporción acorde a las acciones que hayamos comprado.
+                            </p>
+                            <p class="principal__text">
+                                Es por ello, que históricamente las acciones son el activo más rentable. Aunque a su vez es el que más riesgo y volatilidad tienen.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Bonos:
+                            </a>
+                            <p class="principal__text">
+                                Los bonos son instrumentos de renta fija y por ello se consideran más seguros que las acciones. Aunque depende del tipo de bono. A cambio de esa mayor seguridad la rentabilidad que ofrecen generalmente es menor.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Índice bursátil:
+                            </a>
+                            <p class="principal__text">
+                                Sirve para representar la evolución de las empresas de un país, un determinado sector de la economía o un tipo de activo financiero.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Fondo de inversión:
+                            </a>
+                            <p class="principal__text">
+                                Es un vehículo de inversión que aglutina el dinero de varios inversores para invertirlo de forma conjunta. Permite invertir en varios activos de una sola vez. Algunos fondos replican el comportamiento de un índice (los fondos de gestión pasiva, también llamados <a href="">fondos indexados</a>) y otros invierten según su criterio (gestión activa).
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>ETF:
+                            </a>
+                            <p class="principal__text">
+                                Es un tipo de fondo de inversión que cotiza en bolsa y por tanto se puede negociar durante el día, siendo mucho más líquido que un fondo tradicional. Los ETFs suelen ser de gestión pasiva, pero también existen ETFs de gestión activa.
+                            </p>
+                        </div>
+                        <div class="principal_container">
+                            <a href="" class="principal__title">
+                                <i class="fa-solid fa-right-long"></i>Interés compuesto:
+                            </a>
+                            <p class="principal__text">
+                                Permite que tu inversión se multiplique a lo largo del tiempo. Es la fuerza sobre la que te tienes que apalancar como inversor.
+                            </p>
+                            <p class="principal__text">
+                                Los intereses anteriores se van sumando al capital inicial y van generando nuevos intereses, haciendo un efecto bola de nieve con tu dinero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="publish second flex directionColumn alignCenter">
+                <h5 class="publish_title">¿Necesitas un bróker para tus inversiones?</h5>
+                <p class="publish_text">Mira nuestras recomendaciones</p>
+                <div class="publish_container flex">
+                    <a href="" class="publish__recomendation degiro flex directionColumn alignCenter colorDark">
+                        <img src="./assets/logoDegiro.png" alt="Logo de Degiro" class="recomendation_img">
+                        <h6 class="recomendation_title">Degiro</h6>
+                        <p class="recomendation_text">
+                            Sencilla, intuitiva y comisiones bajas
+                        </p>
+                        <span class="recomendation_more colorLight fontBolder">Ver más</span>
+                    </a>
+                    <a href="" class="publish__recomendation xtb flex directionColumn alignCenter colorDark side-right">
+                        <img src="./assets/logoXTB.png" alt="Logo de XTB" class="recomendation_img">
+                        <h6 class="recomendation_title">XTB</h6>
+                        <p class="recomendation_text">
+                            0% comisiones en acciones y ETFs
+                        </p>
+                        <span class="recomendation_more colorLight fontBolder">Ver más</span>
+                    </a>
+                </div>
+            </div>
+            <section id="courses" class="section flex directionColumn alignCenter">
+                <h2 class="section_h2">Cursos y programas de inversión en bolsa</h2>
+                <h3 class="section_h3">El programa más completo de inversión en bolsa</h3>
+                <p class="section_text">
+                    El primer paso para invertir en bolsa es formación financiera. Apúntate al programa online más completo y práctico sobre inversión en bolsa, para pasar de 0 a 100. En este programa hay 6 módulos con varios cursos cada uno.
+                </p>
+                <p class="section_text">
+                    Aprende a invertir como un profesional de los mercados, sin ser un lobo de Wall Street, y descubre cómo hacer crecer tu patrimonio con seguridad. Es un programa práctico y 100% aplicado al mundo real. Con nuestra metodología de enseñanza fácil y entretenida.
+                </p>
+                <a href="" class="program_link">
+                    <img src="./assets/fundamentosInversion.avif" alt="Imagen del programa El ABC de la educación financiera" class="program__img">
+                    <h6 class="program__title">Fundamentos de inversión en bolsa: empieza a construir tu riqueza</h6>
+                    <p class="program__text colorDark">
+                        Consigue una rentabilidad atractiva con riesgos controlados invirtiendo de forma fácil. Este programa te enseña todo lo necesario para hacerlo.
+                    </p>
+                </a>
+                <h3 class="section_h3">¿Ya sabes lo que necesitas?<br>Encuentra el mejor curso de bolsa para ti</h3>
+                <p class="section_text">
+                    <span class="fontBolder">Encuentra el curso de inversión en bolsa que más se adapte a lo que necesitas</span>. Están ordenados por las siguientes categorías: Renta variable, análisis fundamental, derivados, gestión de carteras e inversiones alternativas.
+                </p>
+                <article class="coursesCategory">
+                    <h4 class="coursesCategory_title">Cursos de renta variable</h4>
+                    <div class="coursesCategory_container flex justifyCenter">
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosRV1.avif" alt="Imagen del curso Inversión en bolsa" class="course_img">
+                            <h6 class="course_title">Curso básico de inversión en bolsa</h6>
+                            <p class="course_text">
+                                Aprende las bases para invertir correctamente, entender el mundo de la bolsa y tener éxito en tus inversiones. Conocerás todos los mercados y activos.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosRV2.avif" alt="Imagen del curso Sistema financiero, mercados y operativa en bolsa" class="course_img">
+                            <h6 class="course_title">Curso de sistema financiero, mercados y operativa en bolsa</h6>
+                            <p class="course_text">
+                                Entiende cómo está configurado el cerebro, cómo piensa el mercado y aprende a gestionar tus emociones para sacarle el máximo beneficio a tus inversiones.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosRV9.avif" alt="Imagen del mini-curso Cómo diferenciar las clases de un fondo de inversión" class="course_img">
+                            <h6 class="course_title">Mini-curso. Cómo diferenciar las clases de un fondo de inversión</h6>
+                            <p class="course_text">
+                                Imprescindible si inviertes en fondos: qué son las clases de fondos, qué tipos hay, cómo pueden afectar a tu inversión, y qué factores las determinan.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosRV13.avif" alt="Imagen del mini-curso ¿Es el mercado eficiente?" class="course_img">
+                            <h6 class="course_title">Mini-curso. ¿Es el mercado eficiente?</h6>
+                            <p class="course_text">
+                                Una de las claves para saber cómo funcionan los mercados e invertir correctamente es entender la eficiencia de los mercados.
+                            </p>
+                        </a>
+                    </div>
+                </article>
+                <article class="coursesCategory">
+                    <h4 class="coursesCategory_title">Cursos de análisis fundamental</h4>
+                    <div class="coursesCategory_container flex justifyCenter">
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosAF1.avif" alt="Imagen del curso Análisis fundamental" class="course_img">
+                            <h6 class="course_title">Curso básico de análisis fundamental. ¿Cuánto vale una empresa</h6>
+                            <p class="course_text">
+                                Aprende a analizar empresas y estados financieros para descubrir buenas empresas y saber cuándo invertir. Invierte en acciones de forma rentable y segura.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosAF2.avif" alt="Imagen del curso Cómo valorar una empresa" class="course_img">
+                            <h6 class="course_title"> Cómo valorar una empresa: métodos y herramientas</h6>
+                            <p class="course_text">
+                                Principales métodos de valoración de empresas para estimar el valor de una empresa y saber si está sobrevalorada o infravalorada.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosAF3.avif" alt="Imagen del mini-curso Cómo calcular el WACC de una empresa" class="course_img">
+                            <h6 class="course_title">Mini-curso. ¿Cómo calcular el WACC de una empresa?</h6>
+                            <p class="course_text">
+                                El WACC es un elemento clave a la hora de analizar y valorar una empresa, y por lo tanto para decidir si invertir en ella.
+                            </p>
+                        </a>
+                    </div>
+                </article>
+                <article class="coursesCategory">
+                    <h4 class="coursesCategory_title">Cursos de derivados financieros</h4>
+                    <div class="coursesCategory_container flex justifyCenter">
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosD1.avif" alt="Imagen del curso Derivados financieros" class="course_img">
+                            <h6 class="course_title">Curso de derivados financieros</h6>
+                            <p class="course_text">
+                                Aprende a maximizar tus ganancias y minimizar tus riesgos, aprovechando todo el potencial y estrategias de inversión de los productos de derivados financieros.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosD2.avif" alt="Imagen del mini-curso CDS y la gran apuesta" class="course_img">
+                            <h6 class="course_title">Mini-curso. Cómo funcionan los CDS, con Michael Burry y "La gran apuesta"</h6>
+                            <p class="course_text">
+                                Cómo Michael Burry ganó más de 700 millones de dólares en 2008 apostando contra el mercado inmobiliario americano, gracias a los CDS. Descubre cómo funcionan.
+                            </p>
+                        </a>
+                    </div>
+                </article>
+                <article class="coursesCategory">
+                    <h4 class="coursesCategory_title">Cursos de gestión de carteras</h4>
+                    <div class="coursesCategory_container flex justifyCenter">
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosGC1.avif" alt="Imagen del curso Cómo construir una cartera de inversión" class="course_img">
+                            <h6 class="course_title">Curso. ¿Cómo construir una cartera de inversión?</h6>
+                            <p class="course_text">
+                                Aprende a construir una cartera rentable, gestionar el riesgo y tomar decisiones de inversión acertadas con un experto en gestión de carteras.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosGC2.avif" alt="Imagen del curso Conoce tu yo inversor" class="course_img">
+                            <h6 class="course_title">Curso. Conoce tu yo inversor y las mejores inversiones para tu perfil</h6>
+                            <p class="course_text">
+                                Descubre tu perfil de inversor y cómo invertir de acuerdo a él. Conoce las características de todos los activos, para invertir de forma eficiente y rentable.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosGC3.avif" alt="Imagen del mini-curso Descubriendo la Cartera Permanente" class="course_img">
+                            <h6 class="course_title">Mini-curso. Descubriendo la Cartera Permanente</h6>
+                            <p class="course_text">
+                                La Cartera Permanente de Harry Browne es barata, sencilla, no requiere apenas esfuerzo y ha dado un 6,5% de retorno anual desde su creación.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosGC5.avif" alt="Imagen del mini-curso Las megatendencias" class="course_img">
+                            <h6 class="course_title">Mini-curso. Las megatendencias</h6>
+                            <p class="course_text">
+                                Las 14 megatendencias que están cambiando la sociedad a día de hoy, y cómo invertir en ellas: blockchain, agua, salud, videojuegos...
+                            </p>
+                        </a>
+                    </div>
+                </article>
+                <article class="coursesCategory">
+                    <h4 class="coursesCategory_title">Cursos de inversiones alternativas</h4>
+                    <div class="coursesCategory_container flex justifyCenter">
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosIA1.avif" alt="Imagen del curso Inversión inmobiliaria al desnudo" class="course_img">
+                            <h6 class="course_title">Curso. La inversión inmobiliaria al desnudo</h6>
+                            <p class="course_text">
+                                Invierte en tu futuro con el interesante mundo de la inversión inmobiliaria.
+                            </p>
+                        </a>
+                        <a href="" class="coursesCategory__course colorDark">
+                            <img src="./assets/cursosIA2.avif" alt="Imagen del mini-curso ¿Comprar o alquilar?" class="course_img">
+                            <h6 class="course_title">Mini-curso. ¿Comprar o alquilar?</h6>
+                            <p class="course_text">
+                                Descubre las ventajas de cada opción, y cómo medir cuándo es mejor para ti alquilar y cuándo es mejor comprar.
+                            </p>
+                        </a>
+                    </div>
+                </article>
+                <a href="" class="section_more">
+                    <i class="fa-solid fa-angles-right"></i>Ver todos los cursos de Economipedia<i class="fa-solid fa-angles-left"></i>
+                </a>
+            </section>
+        </section>
+    </main>
+    <div id="redes">
+        <ul class="redes_ul flex directionColumn alignCenter">
+            <li class="redes__li">
+                <a href="https://www.facebook.com/Economipedia" class="social facebook flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.linkedin.com/company/economipedia/" class="social linked-in flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://twitter.com/economipedia" class="social twitter flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.youtube.com/c/Economipedia" class="social youtube flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.instagram.com/economipedia/" class="social instagram flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer" class="flex">
+        <div class="footer_container flex directionColumn alignCenter">
+            <img src="./assets/logoCrema2.png" alt="Logo de Economipedia 2" class="footer__img">
+            <ul class="warns_container flex">
+                <li class="warns__li">
+                    <a href="ayuda.html" class="warns__li-link colorLight">Ayuda</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Aviso legal</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Cookies</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Privacidad</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Términos y Condiciones</a>
+                </li>
+            </ul>
+            <p class="footer__copy colorLight">
+                Copyright © 2023 <a href="index.html" class="copy_link colorLight">Economipedia</a>
+            </p>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Diccionario económico</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="diccionario.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Diccionario económico
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Microeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Macroeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Finanzas
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Contenidos de economía</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="programas.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Programas
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="cursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Cursos de economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="recursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Recursos gratuitos
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="guias.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Guías
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="fuentes.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Fuentes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Sobre nosotros</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="sobre-economipedia.html" class="footer__ul-li-a colorLight">¿Qué es economipedia?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="sobre-nosotros.html" class="footer__ul-li-a colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="equipo.html" class="footer__ul-li-a colorLight">El equipo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="empleo.html" class="footer__ul-li-a colorLight">Empleo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="ayuda.html" class="footer__ul-li-a colorLight">Ayuda</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="contacto.html" class="footer__ul-li-a colorLight">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

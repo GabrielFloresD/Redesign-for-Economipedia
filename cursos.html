@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos | Economipedia</title>
+    <link rel="stylesheet" href="cursos.css">
+    <link rel="icon" href="./assets/logoAzul.ico">
+    <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex alignCenter">
+            <div class="navbar_logo flex">
+                <a href="index.html" class="logo_link flex">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1">
+                </a>
+            </div>
+            <ul class="navbar_ul flex alignCenter">
+                <li class="navbar__li">
+                    <a href="programas.html" class="li_link colorLight">Programas</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="cursos.html" class="li_link colorLight">Cursos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="recursos.html" class="li_link colorLight">Recursos gratuitos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="login.html" class="li_link colorLight link_login">Iniciar sesión</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="precios.html" class="li_link link_precios fontBolder colorDark">$ Precios</a>
+                </li>
+            </ul>
+            <div class="navbar_search">
+                <input type="text" class="search_input" placeholder="Buscar...">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="navbar_mobile">
+                <input type="checkbox" id="mobile_check">
+                <label for="mobile_check" class="mobile_label">
+                    <span></span>
+                </label>
+                <ul class="mobile_ul flex directionColumn alignCenter">
+                    <li class="mobile__li">
+                        <a href="precios.html" class="mobile__li-link mobile_link-prices colorDark fontBolder">$ Precios</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="login.html" class="mobile__li-link mobile_link-login colorLight">Iniciar sesión</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="index.html" class="mobile__li-link colorLight">Inicio</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="programas.html" class="mobile__li-link colorLight">Programas</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="cursos.html" class="mobile__li-link colorLight">Cursos</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="recursos.html" class="mobile__li-link colorLight">Recursos gratuitos</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile-redes">Redes
+                        <ul class="mobile-redes_ul flex flexWrap justifyCenter">
+                            <li class="mobile-redes__li">
+                                <a href="https://www.facebook.com/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.linkedin.com/company/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-linked-in" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://twitter.com/economipedia" class="mobile-social flex alignCenter justifyCenter mobile-twitter" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.youtube.com/c/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-youtube" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.instagram.com/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-instagram" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="main_section flex directionColumn alignCenter">
+            <h1 class="main__h1">Cursos de economía, inversión y finanzas</h1>
+            <h2 class="main__h2 fontLighter">
+                Aprende de manera fácil y entretenida como nunca antes, para alcanzar tus metas profesionales y personales. Suscríbete y accede de forma ilimitada a más de 40 cursos y programas, certificados y herramientas.
+            </h2>
+            <div class="main__notas flex">
+                <p class="notas_text">
+                    Aprende finanzas e inversiones y da un salto en tu carrera profesional y personal.
+                </p>
+                <p class="notas_text">
+                    Aprende con expertos de primer nivel. Contacto directo.
+                </p>
+                <p class="notas_text">
+                    Certificados para validar tus conocimientos.
+                </p>
+                <p class="notas_text">
+                    Microlearning, aprende a tu ritmo 100% online. Nuevos videos cada semana.
+                </p>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Análisis fundamental</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosAF1.avif" alt="Imagen del curso Análisis fundamental" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso básico de análisis fundamental. ¿Cuánto vale una empresa?</h5>
+                    <p class="course_text">
+                        Aprende a analizar empresas y estados financieros para descubrir buenas empresas y saber cuándo invertir. Invierte en acciones de forma rentable y segura.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosAF2.avif" alt="Imagen del curso Cómo valorar una empresa" class="course_img" loading="lazy">
+                    <h5 class="course_title">Cómo valorar una empresa: métodos y herramientas</h5>
+                    <p class="course_text">
+                        Principales métodos de valoración de empresas para estimar el valor de una empresa y saber si está sobrevalorada o infravalorada.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosAF3.avif" alt="Imagen del mini-curso Cómo calcular el WACC de una empresa" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. ¿Cómo calcular el WACC de una empresa?</h5>
+                    <p class="course_text">
+                        El WACC es un elemento clave a la hora de analizar y valorar una empresa, y por lo tanto para decidir si invertir en ella.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Renta Variable</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV1.avif" alt="Imagen del curso Inversión en bolsa" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso básico de inversión en bolsa</h5>
+                    <p class="course_text">
+                        Aprende las bases para invertir correctamente, entender el mundo de la bolsa y tener éxito en tus inversiones. Conocerás todos los mercados y activos.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV2.avif" alt="Imagen del curso Sistema financiero y mercados en bolsa" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de sistema financiero, mercados y operativa en bolsa</h5>
+                    <p class="course_text">
+                        Descubre cómo funciona el sistema financiero, los mercados financieros, y cómo realizar operaciones en bolsa desde una terminal de un bróker real.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV3.avif" alt="Imagen del curso Análisis de fondos de inversión" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Análisis de fondos de inversión</h5>
+                    <p class="course_text">
+                        Aprende a analizar cualquier fondo de inversión de forma práctica. Con herramientas y ejemplos reales de fondos de renta variable, renta fija y fondos mixtos.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV4.avif" alt="Imagen del curso Invertir en fondos y ETFs" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Pasa a la acción: Invierte en fondos y ETFs</h5>
+                    <p class="course_text">
+                        Invertir en fondos de inversión de forma práctica y segura, con análisis y herramientas clave para elegir los adecuados para ti. Mejora tu inversión hoy.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV5.avif" alt="Imagen del curso Descubriendo la renta variable" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Acciones en acción: descubriendo la renta variable</h5>
+                    <p class="course_text">
+                        Adéntrate en el glamuroso mundo de la renta variable como nunca te lo habían mostrado, pasando desde las acciones ordinarias y las preferentes a las acciones privadas.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV6.avif" alt="Imagen del curso Domina el análisis sectorial" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Cazando oportunidades: domina el análisis sectorial</h5>
+                    <p class="course_text">
+                        Descubre el mundo del análisis sectorial con las herramientas clave que te ayudarán a tomar decisiones estratégicas fundamentadas.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV7.avif" alt="Imagen del mini-curso Los mejores Brokers en México" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Los mejores Brokers en México</h5>
+                    <p class="course_text">
+                        Descubre los mejores brókers de México, y cómo crear una cuenta y empezar a invertir tu dinero paso a paso.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV8.avif" alt="Imagen del mini-curso Mejores brokers de España" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Cómo elegir un bróker. Analizando los mejores de España</h5>
+                    <p class="course_text">
+                        Conoce bien algunos de los brókers más reconocidos en España, y escoge cuál te conviene en función de tu estrategia y perfil inversor.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV9.avif" alt="Imagen del mini-curso Cómo diferenciar las clases de un fondo de inversión" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Cómo diferenciar las clases de un fondo de inversión</h5>
+                    <p class="course_text">
+                        Imprescindible si inviertes en fondos: qué son las clases de fondos, qué tipos hay, cómo pueden afectar a tu inversión, y qué factores las determinan.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV10.avif" alt="Imagen del mini-curso ¿Es posible batir al mercado?" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. ¿Es posible batir al mercado?</h5>
+                    <p class="course_text">
+                        El objetivo de cualquier inversor ambicioso es obtener beneficios superiores a los del mercado. Pero, ¿es posible conseguirlo?
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV11.avif" alt="Imagen del mini-curso ¿Puedes perderlo todo en bolsa?" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. ¿Puedes perderlo todo en bolsa? Riesgos y oportunidades</h5>
+                    <p class="course_text">
+                        El dinero es el único activo importante que pierde valor constantemente. Descubre la importancia de invertir en bolsa y los riesgos a tener en cuenta.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV12.avif" alt="Imagen del mini-curso Los activos financieros" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Los activos financieros</h5>
+                    <p class="course_text">
+                        Cómo hacer crecer tus ahorros con ETFs, acciones, bonos, fondos, futuros, inmuebles, swaps… Y cualquier activo financiero.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosRV13.avif" alt="Imagen del mini-curso ¿Es el mercado eficiente?" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. ¿Es el mercado eficiente?</h5>
+                    <p class="course_text">
+                        Una de las claves para saber cómo funcionan los mercados e invertir correctamente es entender la eficiencia de los mercados.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Derivados</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosD1.avif" alt="Imagen del curso Derivados financieros" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de derivados financieros</h5>
+                    <p class="course_text">
+                        Aprende a maximizar tus ganancias y minimizar tus riesgos, aprovechando todo el potencial y estrategias de inversión de los productos de derivados financieros.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosD2.avif" alt="Imagen del mini-curso CDS y la gran apuesta" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Cómo funcionan los CDS, con Michael Burry y "La gran apuesta"</h5>
+                    <p class="course_text">
+                        Cómo Michael Burry ganó más de 700 millones de dólares en 2008 apostando contra el mercado inmobiliario americano, gracias a los CDS. Descubre cómo funcionan.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Inversiones alternativas</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosIA1.avif" alt="Imagen del curso Inversión inmobiliaria al desnudo" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. La inversión inmobiliaria al desnudo</h5>
+                    <p class="course_text">
+                        Invierte en tu futuro con el interesante mundo de la inversión inmobiliaria.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosIA2.avif" alt="Imagen del mini-curso ¿Comprar o alquilar?" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. ¿Comprar o alquilar?</h5>
+                    <p class="course_text">
+                        Descubre las ventajas de cada opción, y cómo medir cuándo es mejor para ti alquilar y cuándo es mejor comprar.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Gestión de carteras</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosGC1.avif" alt="Imagen del curso Cómo construir una cartera de inversión?" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. ¿Cómo construir una cartera de inversión?</h5>
+                    <p class="course_text">
+                        Aprende a construir una cartera rentable, gestionar el riesgo y tomar decisiones de inversión acertadas con un experto en gestión de carteras.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosGC2.avif" alt="Imagen del curso Conoce tu yo inversor" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Conoce tu yo inversor y las mejores inversiones para tu perfil</h5>
+                    <p class="course_text">
+                        Descubre tu perfil de inversor y cómo invertir de acuerdo a él. Conoce las características de todos los activos, para invertir de forma eficiente y rentable.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosGC3.avif" alt="Imagen del mini-curso Descubriendo la Cartera Permanente" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Descubriendo la Cartera Permanente</h5>
+                    <p class="course_text">
+                        La Cartera Permanente de Harry Browne es barata, sencilla, no requiere apenas esfuerzo y ha dado un 6,5% de retorno anual desde su creación.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosGC4.avif" alt="Imagen del mini-curso La revolución de los Robo Advisors en España" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. La revolución de los Robo Advisors en España</h5>
+                    <p class="course_text">
+                        La forma más sencilla, barata y efectiva de invertir para los inversores menos expertos. Descubre las ventajas de los Robo Advisors.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosGC5.avif" alt="Imagen del mini-curso Las megatendencias" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Las megatendencias</h5>
+                    <p class="course_text">
+                        Las 14 megatendencias que están cambiando la sociedad a día de hoy, y cómo invertir en ellas: blockchain, agua, salud, videojuegos...
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Economía</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE1.avif" alt="Imagen del curso Funcionamiento del dinero y los precios" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso. Funcionamiento del dinero y los precios</h5>
+                    <p class="course_text">
+                        Descubre cómo funciona el dinero, por qué son tan importantes los precios en la economía y cómo afecta la ley de oferta y demanda.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE2.avif" alt="Imagen del curso Introducción a la contabilidad" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de introducción a la contabilidad</h5>
+                    <p class="course_text">
+                        Entiende la contabilidad financiera desde cero, para asentar unas buenas bases contables. Descubre todo lo necesario para empezar a entenderla.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE3.avif" alt="Imagen del curso Política monetaria y fiscal" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de política monetaria y fiscal: las claves de la economía</h5>
+                    <p class="course_text">
+                        Descubre cómo te afectan a ti, a tu dinero, a tus inversiones y a la economía las decisiones de los líderes políticos y de los bancos centrales.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE4.avif" alt="Imagen del mini-curso Cómo afectan los tipos de interés a la economía y los mercados" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Cómo afectan los tipos de interés a la economía y los mercados</h5>
+                    <p class="course_text">
+                        Descubre qué son los tipos de interés, quién los controla, y cómo afectan a la economía, a las finanzas, y a tu vida (salario, hipoteca...).
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE5.avif" alt="Imagen del mini-curso La revolución de los NFTs" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. La revolución de los NFTs, cómo entenderlos</h5>
+                    <p class="course_text">
+                        Descubre qué son los tokens no fungibles (NFTs), y cómo los puedes utilizar tanto en el metaverso como en el mundo real.
+                    </p>
+                </a>
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosE6.avif" alt="Imagen del mini-curso Descubriendo el Metaverso" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Descubriendo el Metaverso y cómo funciona</h5>
+                    <p class="course_text">
+                        Una cita en Marte, correr contra Usain Bolt, una clase de historia sobre la antigua Roma en el propio Coliseo… Todo esto es posible en el Metaverso.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Finanzas personales</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP1.avif" alt="Imagen del curso Ahorro y finanzas personales" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de ahorro y finanzas personales</h5>
+                    <p class="course_text">
+                        Aprende a presupuestar, ahorrar, invertir y planificar tu futuro financiero desde cero. ¡Construye tu camino hacia la independencia financiera desde hoy mismo!
+                    </p>
+                </a>
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP2.avif" alt="Imagen del curso Psicología de la inversión" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de finanzas conductuales: La psicología de la inversión</h5>
+                    <p class="course_text">
+                        Entiende cómo está configurado el cerebro, cómo piensa el mercado y aprende a gestionar tus emociones para sacarle el máximo beneficio a tus inversiones.
+                    </p>
+                </a>
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP3.avif" alt="Imagen del mini-curso Cómo alcanzar tus metas financieras" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Cómo alcanzar tus metas financieras</h5>
+                    <p class="course_text">
+                        Descubre cómo establecer metas financieras eficaces y alcanzables, y las claves principales para llegar a alcanzarlas.
+                    </p>
+                </a>
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP4.avif" alt="Imagen del mini-curso Claves para construir tu fondo de emergencia" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Claves para construir tu fondo de emergencia</h5>
+                    <p class="course_text">
+                        El fondo de emergencia es la base de tus finanzas personales. Descubre paso a paso cómo construir el tuyo de la manera correcta.
+                    </p>
+                </a>
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP5.avif" alt="Imagen del curso Básico de Excel" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso básico de Microsoft Excel</h5>
+                    <p class="course_text">
+                        Aprende los conocimientos básicos para manejar Excel de forma independiente y aprovechar los recursos principales que ofrece esta herramienta imprescindible.
+                    </p>
+                </a>
+                <a href="" class="container_course flex 
+                directionColumn alignCenter">
+                    <img src="./assets/cursosFP6.avif" alt="Imagen del mini-curso Dinero y felicidad" class="course_img" loading="lazy">
+                    <h5 class="course_title">Mini-curso. Dinero y felicidad: ¿Es posible comprar tu sonrisa?</h5>
+                    <p class="course_text">
+                        Resolvemos esta gran incógnita de la vida en este interesante (y puede que sorprendente) mini-curso.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="section flex directionColumn alignCenter">
+            <h3 class="section_title">Cálculo financiero y estadística</h3>
+            <div class="section_container flex flexWrap justifyCenter">
+                <a href="" class="container_course flex directionColumn alignCenter">
+                    <img src="./assets/cursosCFE1.avif" alt="Imagen del curso Matemáticas financieras" class="course_img" loading="lazy">
+                    <h5 class="course_title">Curso de matemáticas financieras: Toma mejores decisiones con tu dinero</h5>
+                    <p class="course_text">
+                        El mundo funciona con dinero. Tasas de interés, VAN y TIR, hipotecas, capitalizaciones y mucho más para entender las bases de las finanzas y las inversiones.
+                    </p>
+                </a>
+            </div>
+        </section>
+        <section class="final_section">
+            <div class="container_plan flex">
+                <a href="" class="plan flex directionColumn colorDark">
+                    <h4 class="plan_h4">Plan mensual</h4>
+                    <h5 class="plan_h5">75$ al mes</h5>
+                    <ul class="plan_ul flex directionColumn">
+                        <li class="plan__li">
+                            <i class="fa-regular fa-circle-right"></i>Sin compromisos.
+                        </li>
+                        <li class="plan__li">
+                            <i class="fa-regular fa-circle-right"></i>Cancela cuando quieras.
+                        </li>
+                    </ul>
+                    <span class="plan_span"></span>
+                    <span class="plan_sub fontBolder">Suscríbete</span>
+                </a>
+                <a href="" class="plan flex directionColumn colorDark">
+                    <h4 class="plan_h4">Plan anual</h4>
+                    <h5 class="plan_h5">450$ al año</h5>
+                    <ul class="plan_ul flex directionColumn">
+                        <li class="plan__li">
+                            <i class="fa-regular fa-circle-right"></i>Ahorra un 50% (solo 37,5$ al mes).
+                        </li>
+                        <li class="plan__li">
+                            <i class="fa-regular fa-circle-right"></i>Garantía de satisfacción.
+                        </li>
+                        <li class="plan__li">
+                            <i class="fa-regular fa-circle-right"></i>Prueba de 7 días y si no quedas satisfecho, te devolvemos tu dinero.
+                        </li>
+                    </ul>
+                    <span class="plan_span"></span>
+                    <span class="plan_sub colorLight">Suscríbete</span>
+                </a>
+            </div>
+            <div class="final_container flex">
+                <div class="container_data">
+                    <h3 class="data_title fontLighter">Únete a más de 130.000 personas que ya aprenden con nosotros</h3>
+                    <ul class="data_ul flex directionColumn">
+                        <li class="data__li">
+                            <i class="fa-regular fa-circle-check"></i>Cursos de lo más básico al nivel más experto. A tu ritmo, cuando y dondo quieras.
+                        </li>
+                        <li class="data__li">
+                            <i class="fa-regular fa-circle-check"></i><span class="fontBolder">Enfoque 100% práctico y aplicado al mundo real</span>, para que lo puedas aplicar en tu vida desde el minuto uno.
+                        </li>
+                        <li class="data__li">
+                            <i class="fa-regular fa-circle-check"></i><span class="fontBolder">Fácil y entretenido</span>.
+                        </li>
+                        <li class="data__li">
+                            <i class="fa-regular fa-circle-check"></i><span class="fontBolder">Profesores de primer nivel</span>.
+                        </li>
+                    </ul>
+                </div>
+                <form class="final__form flex directionColumn alignCenter">
+                    <h3 class="form_title">Apúntate a la newsletter</h3>
+                    <p class="form_text">
+                        Entérate de todas las novedades sobre economía, inversión y finanzas.
+                    </p>
+                    <input type="email" class="form_mail" placeholder="Email">
+                    <div class="form_container flex alignCenter">
+                        <input type="checkbox" id="check-terms" class="form__checkbox">
+                        <label for="check-terms" class="form__label">Acepto los <a href="" class="label_terms">términos y condiciones</a>.</label>
+                    </div>
+                    <input type="submit" value="Empieza gratis" class="form_submit colorLight">
+                </form>
+            </div>
+        </section>
+    </main>
+    <div id="redes">
+        <ul class="redes_ul flex directionColumn alignCenter">
+            <li class="redes__li">
+                <a href="https://www.facebook.com/Economipedia" class="social facebook flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.linkedin.com/company/economipedia/" class="social linked-in flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://twitter.com/economipedia" class="social twitter flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.youtube.com/c/Economipedia" class="social youtube flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.instagram.com/economipedia/" class="social instagram flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer" class="flex">
+        <div class="footer_container flex directionColumn alignCenter">
+            <img src="./assets/logoCrema2.png" alt="Logo de Economipedia 2" class="footer__img">
+            <ul class="warns_container flex">
+                <li class="warns__li">
+                    <a href="ayuda.html" class="warns__li-link colorLight">Ayuda</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Aviso legal</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Cookies</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Privacidad</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Términos y Condiciones</a>
+                </li>
+            </ul>
+            <p class="footer__copy colorLight">
+                Copyright © 2023 <a href="index.html" class="copy_link colorLight">Economipedia</a>
+            </p>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Diccionario económico</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="diccionario.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Diccionario económico
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Microeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Macroeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Finanzas
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Contenidos de economía</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="programas.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Programas
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="cursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Cursos de economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="recursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Recursos gratuitos
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="guias.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Guías
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="fuentes.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Fuentes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Sobre nosotros</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="sobre-economipedia.html" class="footer__ul-li-a colorLight">¿Qué es economipedia?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="sobre-nosotros.html" class="footer__ul-li-a colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="equipo.html" class="footer__ul-li-a colorLight">El equipo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="empleo.html" class="footer__ul-li-a colorLight">Empleo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="ayuda.html" class="footer__ul-li-a colorLight">Ayuda</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="contacto.html" class="footer__ul-li-a colorLight">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El equipo | Economipedia</title>
+    <link rel="stylesheet" href="equipo.css">
+    <link rel="icon" href="./assets/logoAzul.ico">
+    <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex alignCenter">
+            <div class="navbar_logo flex">
+                <a href="index.html" class="logo_link flex">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1">
+                </a>
+            </div>
+            <ul class="navbar_ul flex alignCenter">
+                <li class="navbar__li">
+                    <a href="programas.html" class="li_link colorLight">Programas</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="cursos.html" class="li_link colorLight">Cursos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="recursos.html" class="li_link colorLight">Recursos gratuitos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="login.html" class="li_link colorLight link_login">Iniciar sesión</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="precios.html" class="li_link link_precios fontBolder colorDark">$ Precios</a>
+                </li>
+            </ul>
+            <div class="navbar_search">
+                <input type="text" class="search_input" placeholder="Buscar...">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="navbar_mobile">
+                <input type="checkbox" id="mobile_check">
+                <label for="mobile_check" class="mobile_label">
+                    <span></span>
+                </label>
+                <ul class="mobile_ul flex directionColumn alignCenter">
+                    <li class="mobile__li">
+                        <a href="precios.html" class="mobile__li-link mobile_link-prices colorDark fontBolder">$ Precios</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="login.html" class="mobile__li-link mobile_link-login colorLight">Iniciar sesión</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="index.html" class="mobile__li-link colorLight">Inicio</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="programas.html" class="mobile__li-link colorLight">Programas</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="cursos.html" class="mobile__li-link colorLight">Cursos</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="recursos.html" class="mobile__li-link colorLight">Recursos gratuitos</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile-redes">Redes
+                        <ul class="mobile-redes_ul flex flexWrap justifyCenter">
+                            <li class="mobile-redes__li">
+                                <a href="https://www.facebook.com/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.linkedin.com/company/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-linked-in" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://twitter.com/economipedia" class="mobile-social flex alignCenter justifyCenter mobile-twitter" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.youtube.com/c/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-youtube" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.instagram.com/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-instagram" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="secondNavbar flex justifyCenter">
+            <ul class="secondNavbar_ul flex alignCenter">
+                <li class="secondNavbar__li">
+                    <a href="sobre-economipedia.html" class="secondNavbar__li-link colorLight">¿Qué es Economipedia?</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="sobre-nosotros.html" class="secondNavbar__li-link colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="equipo.html" class="secondNavbar__li-link colorLight">El equipo</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="fuentes.html" class="secondNavbar__li-link colorLight">Fuentes</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="contacto.html" class="secondNavbar__li-link colorLight">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="flex flexWrap">
+        <h1 class="main_h1">El equipo</h1>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg1.avif" alt="Foto de Andrés Sevilla Arias" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Andrés Sevilla Arias</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    CEO y Cofundador de Economipedia. Apasionado de la economía y los mercados. Es el responsable de hacer que las cosas pasen. Tras +10 años como asesor financiero dejó todo para impulsar la educación financiera y mejorar la calidad de vida de las personas.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg2.avif" alt="Foto de Alicia Rabadán Lorenzo" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Alicia Rabadán Lorenzo</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Apasionada de la formación, con +25 años de experiencia profesional en el sector bancario y en educación. Convierte una hora de formación en una experiencia de aprendizaje iluminadora y enriquecedora, que amplia los límites de la mente. Directora de formación & coaching en Economipedia.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg3.avif" alt="Foto de Carlos Pareja Pellín" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Carlos Pareja Pellín</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Asesor financiero (AF/19/0312) y gestor de patrimonio con más de 5 años de experiencia en el sector. Especializado en renta variable, renta fija, fondos de inversión, ETF y seguros.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg4.avif" alt="Foto de Iñaki Arcocha" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Iñaki Arcocha</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Director de IA Capital y profesor en Economipedia. Con más de 20 años como asesor de altos patrimonios en el Banco Santander, BBVA y el PKB. Posee las reputadas certificaciones internacionales CFA, CIIA, CAIA, CWMA, CIPM, CAd, CMT y FRM.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg5.avif" alt="Foto de Esmeralda Gómez López" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Esmeralda Gómez López</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Licenciada en matemáticas. Profesora en Economipedia. Escritora en Grupo Planeta. Investigadora en URJC y profesora en Universidad Francisco Marroquín. Inversora. Presentadora y conferenciante. Diez años de experiencia en banca. Data Scientist. Fundadora de La Guía de la Vida. Premio Murray Rothbard. Premio Value School «La voz de la educación financiera del siglo XXI»
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg6.avif" alt="Foto de José Franciso López" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">José Franciso López</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Profesor y redactor en Economipedia. Es graduado en Economía por la Universidad de Murcia (España) y máster en Dirección y Gestión de Proyectos por el IMF Business School (España). Inversor y emprendedor.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg7.avif" alt="Foto de Nerea Díaz" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Nerea Díaz</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Trabaja en banca de inversión en EBN Banco y es profesora en Economipedia. Graduada en administración de empresas por la Universidad de Deusto (España) y Máster en Bolsa y Mercados Financieros por el IEB (España).
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg8.avif" alt="Foto de Pablo Sevilla Arias" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Pablo Sevilla Arias</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Director comercial y marketing de Economipedia. Es licenciado en marketing y gestión comercial por ESIC (España), con especialidad en estrategia de marketing digital por la London College of Communication (Reino Unido).
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg9.avif" alt="Foto de Alfonso" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Alfonso</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Co fundador de Economipedia, con experiencia en startups, inversión y consultoría de negocio. Mi objetivo es cambiar la vida de las personas a través de la educación y el conocimiento.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg10.avif" alt="Foto de Iván Barreda" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Iván Barreda</a>
+                <p class="description_text">
+                    Creando webs desde 1997.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg11.avif" alt="Foto de Myriam Quiroa" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Myriam Quiroa</a>
+                <p class="description_text">
+                    Redactora de Economipedia. Catedrática de la Universidad Galileo (Guatemala) en el área de Economía y Marketing en programas de Doctorados, Maestrías, Postgrados y Pregrados. Posee un Postdoctorado en Economía y un Doctorado en Economía con especialidad en Marketing de la Atlantic International University (Estados Unidos). También una Maestría en Reingeniería y Tecnologías de Aseguramiento, un Postgrado en Ingeniería de Negocios de la Universidad Galileo. Es graduada de la Universidad Francisco Marroquín (Guatemala) de Licenciada en Pedagogía y Ciencias de la Educación y de Profesora en Pedagogía y Ciencias de la Educación.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg12.avif" alt="Foto de Diego de Guindos" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Diego de Guindos</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Responsable del área de SEO y tecnología de Economipedia. Licenciado en Publicidad y Relaciones Públicas por la Universidad Francisco de Vitoria (España), máster en Marketing Digital por el ESIC (España) y MBA por la Universidad de Westminster (Reino Unido).
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg13.avif" alt="Foto de José Antonio Ludeña" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">José Antonio Ludeña</a>
+                <p class="description_text">
+                    Redactor de Economipedia. Graduado en Economía por la Universidad de Murcia (España) y especialista en microeconomía y marketing.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg14.avif" alt="Foto de Jorge Auz" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Jorge Auz</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Director de producción y postproducción audiovisual en cine y publicidad durante más de 20 años. Director de arte en publicidad durante más de 5 años. Máster en Marketing orientado a la comunicación audiovisual.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg15.avif" alt="Foto de Clara Larrey Durán" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Clara Larrey Durán</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Graduada en Diseño, máster en Motion Graphics. Experiencia en diseño e ilustración, vídeo y motion graphics. https://claralarrey.com/
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg16.avif" alt="Foto de Mer Gil" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Mer Gil</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Realizadora y especialista en Estrategia de Comunicación Creativa, con amplia experiencia tanto en el sector audiovisual como digital.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg17.avif" alt="Foto de Alejandro Moreno" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Alejandro Moreno</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg18.avif" alt="Foto de Elena Trujillo" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Elena Trujillo</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactora en Economipedia. Graduada en Economía por la Universidad Carlos III de Madrid (España) y graduada en Derecho por la Universidad de Castilla-La Mancha (España). Además de redactora en Economipedia trabaja actualmente en los servicios jurídicos de una consultora especializada en reclamación de deuda judicializada
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg19.avif" alt="Foto de Egoitz Alonso" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Egoitz Alonso</a>
+                <p class="description_text">
+                    Copywriting y estrategia digital.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg20.avif" alt="Foto de Enrique Rus Arias" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Enrique Rus Arias</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Diplomado en Ciencias Empresariales y máster universitario de investigación en ciencias sociales y jurídicas, ambos en la Universidad de Extremadura (España). Realizando actualmente los estudios del doctorado en economía. Además de la redacción en Economipedia, es investigador de la Universidad de Extremadura. Las principales líneas de investigación son el emprendimiento y el teletrabajo.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg21.avif" alt="Foto de Federico J. Caballero Ferrari" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Federico J. Caballero Ferrari</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Economista y profesional del sector financiero. Graduado en Economía en la Universidad Autónoma de Madrid (España) y UNED, MBA en Cerem Business School (España). Estudios de posgrado en las universidades de Maastricht y Utrecht (Países Bajos). Con experiencia en banca privada y de inversión, Federico se dedica actualmente a la optimización y mejora de procesos en el ámbito financiero.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg22.avif" alt="Foto de David López Cabia" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">David López Cabia</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Licenciado en Administración de empresas y Máster de Profesorado por la Universidad de Burgos (España). Máster de Asesoría Jurídica por la Universidad Internacional de la Rioja. Docente de profesión, economista de formación, apasionado de la Historia y escritor de novela histórico-bélica en los ratos libres.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg23.avif" alt="Foto de Javier Sánchez Galán" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Javier Sánchez Galán</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Licenciado en Economía y Periodismo por la Universidad Carlos III de Madrid (España). Administrador de Fondos de Inversión con experiencia en entidades como Banco Inversis, Liberbank/Unicaja o Accenture. Además de experiencia en medios de comunicación como Cope o Cinco Días.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg24.avif" alt="Foto de Alfredo Marín García" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Alfredo Marín García</a>
+                <p class="description_text">
+                    Redactor en Economipedia. Graduado en Ciencias Políticas, Gobierno y Administración Pública por la Universidad de Murcia.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg25.avif" alt="Foto de Daniel Jiménez Bermejo" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Daniel Jiménez Bermejo</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Co-fundador de Economipedia. Licenciado en Administración y Dirección de Empresas por la Universidad Complutense de Madrid (España). Además trabaja actualmente como asesor contable en Orange consultores.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg26.avif" alt="Foto de Francisco Javier Marco Sanjuán" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Francisco Javier Marco Sanjuán</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Graduado en economía por la Universidad de Murcia (España), máster en finanzas en la misma universidad. Francisco es especialista en gestión de carteras por el IEB (España) y candidato para el nivel III de CFA. Gran apasionado de la economía y los mercados financieros, en especial los de renta variable. Fanático de la lectura y aprender cosas nuevas. Siempre es bueno estar en constante aprendizaje y adaptarse a los nuevos tiempos.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg27.avif" alt="Foto de Gabriel Páez" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Gabriel Páez</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactor en Economipedia. Economista egresado de la Universidad Metropolitana (Venezuela) y estudiante del último semestre de Comercio Internacional en la Universidad Alejandro de Humboldt (Venezuela). Apasionado por el análisis de datos.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg28.avif" alt="Foto de Janire Carazo Alcalde" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Janire Carazo Alcalde</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactora en Economipedia. Licenciada en Economía por la Universidad de Valladolid (España). Cofundadora de Jobfie.es. Cuenta con más de 5 años de experiencia en RRHH y actualmente trabaja como asesora laboral.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg29.avif" alt="Foto de Joaquín Llorente Jaime" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Joaquín Llorente Jaime</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Co-fundador de Economipedia. Licenciado en Administración y Dirección de empresas en la Universidad Complutense de Madrid (España). Además, es consultor estratégico en transformación digital, con amplia experiencia en servicios financieros. Especializado en el desarrollo de las capacidades analíticas en la industria energética, telecomunicaciones y banca.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg30.avif" alt="Foto de Jonathan Llamas" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Jonathan Llamas</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Economista colegiado y graduado en Finanzas y Contabilidad por la UMA. Máster en Economía, Finanzas y Computación por la UNIA.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg31.avif" alt="Foto de Paula Rodó" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Paula Rodó</a>
+                <p class="description_text">
+                    Redactora en Economipedia. Economista por la Universidad Autónoma de Barcelona (España). Especialista en gestión de carteras y finanzas cuantitativas. Mejor trabajo de fin de grado bajo el nombre de Trigonometric Adjustment on Relative Volatility (TARV). Máster en matemáticas para los instrumentos financieros por el CRM. Además, ha trabajado en el departamento de validación de modelos de riesgo en Caixabank y actualmente está trabajando como gestora de riesgos en Credit Andorrà.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg32.avif" alt="Foto de Rosario Peiró" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Rosario Peiró</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Redactora en Economipedia. Consultora de Marketing Digital y Copywriter. Licenciada en Comunicación Audiovisual por la Universidad de Málaga (España). MBA por la ENAC Escuela de Negocios (España). Experta en Dirección de Empresas Digitales y Especialista en creación de contenidos digitales.
+                </p>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg33.avif" alt="Foto de Victor Velayos" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Victor Velayos</a>
+            </div>
+        </div>
+        <div class="main_container flex alignCenter side-right">
+            <a href="" class="main__link">
+                <img src="./assets/equipoImg34.avif" alt="Foto de Yago Montero Castellanos" class="link_img">
+            </a>
+            <div class="main__description flex directionColumn alignCenter">
+                <a href="" class="description_name">Yago Montero Castellanos</a>
+                <div class="description_redes flex">
+                    <a href="" class="description__red flex justifyCenter alignCenter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="description_text">
+                    Co-fundador de Economipedia. Licenciado en Administración y Dirección de empresas en la Universidad Complutense de Madrid (España). Máster de Auditoría y Contabilidad en la Universidad de Comillas (España). Cuenta con amplia experiencia en auditoría y actualmente trabaja en Luxemburgo como Controlador Financiero de consolidación en una empresa de Trading internacional.
+                </p>
+            </div>
+        </div>
+    </main>
+    <div id="redes">
+        <ul class="redes_ul flex directionColumn alignCenter">
+            <li class="redes__li">
+                <a href="https://www.facebook.com/Economipedia" class="social facebook flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.linkedin.com/company/economipedia/" class="social linked-in flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://twitter.com/economipedia" class="social twitter flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.youtube.com/c/Economipedia" class="social youtube flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.instagram.com/economipedia/" class="social instagram flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer" class="flex">
+        <div class="footer_container flex directionColumn alignCenter">
+            <img src="./assets/logoCrema2.png" alt="Logo de Economipedia 2" class="footer__img">
+            <ul class="warns_container flex">
+                <li class="warns__li">
+                    <a href="ayuda.html" class="warns__li-link colorLight">Ayuda</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Aviso legal</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Cookies</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Privacidad</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Términos y Condiciones</a>
+                </li>
+            </ul>
+            <p class="footer__copy colorLight">
+                Copyright © 2023 <a href="index.html" class="copy_link colorLight">Economipedia</a>
+            </p>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Diccionario económico</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="diccionario.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Diccionario económico
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Microeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Macroeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Finanzas
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Contenidos de economía</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="programas.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Programas
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="cursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Cursos de economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="recursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Recursos gratuitos
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="guias.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Guías
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="fuentes.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Fuentes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Sobre nosotros</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="sobre-economipedia.html" class="footer__ul-li-a colorLight">¿Qué es economipedia?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="sobre-nosotros.html" class="footer__ul-li-a colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="equipo.html" class="footer__ul-li-a colorLight">El equipo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="empleo.html" class="footer__ul-li-a colorLight">Empleo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="ayuda.html" class="footer__ul-li-a colorLight">Ayuda</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="contacto.html" class="footer__ul-li-a colorLight">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

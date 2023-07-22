@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleo | Economipedia</title>
+    <link rel="stylesheet" href="empleo.css">
+    <link rel="icon" href="./assets/logoAzul.ico">
+    <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex alignCenter">
+            <div class="navbar_logo flex">
+                <a href="index.html" class="logo_link flex">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1">
+                </a>
+            </div>
+            <ul class="navbar_ul flex alignCenter">
+                <li class="navbar__li">
+                    <a href="programas.html" class="li_link colorLight">Programas</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="cursos.html" class="li_link colorLight">Cursos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="recursos.html" class="li_link colorLight">Recursos gratuitos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="login.html" class="li_link colorLight link_login">Iniciar sesión</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="precios.html" class="li_link link_precios fontBolder colorDark">$ Precios</a>
+                </li>
+            </ul>
+            <div class="navbar_search">
+                <input type="text" class="search_input" placeholder="Buscar...">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="navbar_mobile">
+                <input type="checkbox" id="mobile_check">
+                <label for="mobile_check" class="mobile_label">
+                    <span></span>
+                </label>
+                <ul class="mobile_ul flex directionColumn alignCenter">
+                    <li class="mobile__li">
+                        <a href="precios.html" class="mobile__li-link mobile_link-prices colorDark fontBolder">$ Precios</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="login.html" class="mobile__li-link mobile_link-login colorLight">Iniciar sesión</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="index.html" class="mobile__li-link colorLight">Inicio</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="programas.html" class="mobile__li-link colorLight">Programas</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="cursos.html" class="mobile__li-link colorLight">Cursos</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="recursos.html" class="mobile__li-link colorLight">Recursos gratuitos</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile-redes">Redes
+                        <ul class="mobile-redes_ul flex flexWrap justifyCenter">
+                            <li class="mobile-redes__li">
+                                <a href="https://www.facebook.com/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.linkedin.com/company/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-linked-in" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://twitter.com/economipedia" class="mobile-social flex alignCenter justifyCenter mobile-twitter" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.youtube.com/c/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-youtube" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.instagram.com/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-instagram" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="secondNavbar flex justifyCenter">
+            <ul class="secondNavbar_ul flex alignCenter">
+                <li class="secondNavbar__li">
+                    <a href="sobre-economipedia.html" class="secondNavbar__li-link colorLight">¿Qué es Economipedia?</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="sobre-nosotros.html" class="secondNavbar__li-link colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="equipo.html" class="secondNavbar__li-link colorLight">El equipo</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="fuentes.html" class="secondNavbar__li-link colorLight">Fuentes</a>
+                </li>
+                <li class="secondNavbar__li">
+                    <a href="contacto.html" class="secondNavbar__li-link colorLight">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="main_section flex flexWrap justifyCenter">
+            <h1 class="main__h1">¿Quieres trabajar en Economipedia?</h1>
+            <p class="main__text">
+                Somos la mayor enciclopedia económica en español del mundo. Pero no nos vamos a quedar ahí. Queremos revolucionar el mundo de la educación, para hacerla más entretenida, personalizada y accesible.
+            </p>
+            <div class="main__container flex justifyCenter">
+                <div class="container">
+                    <img src="./assets/empleoIcon1.svg" class="container_icon">
+                    <h6 class="container_title">Equipo jovén y dinámico</h6>
+                </div>
+                <div class="container">
+                    <img src="./assets/empleoIcon2.svg" class="container_icon">
+                    <h6 class="container_title">Oficina en Madrid + Teletrabajo</h6>
+                </div>
+                <div class="container">
+                    <img src="./assets/empleoIcon3.svg" class="container_icon">
+                    <h6 class="container_title">Plan de desarrollo profesional</h6>
+                </div>
+                <div class="container">
+                    <img src="./assets/empleoIcon4.svg" class="container_icon">
+                    <h6 class="container_title">Horarios flexibles. Nos importa tu trabajo, no tu horario</h6>
+                </div>
+            </div>
+        </section>
+        <section class="section_intro">
+            <img src="./assets/empleoImg1.avif" alt="Imagen del team Economipedia" class="intro_img">
+            <p class="intro_text">
+                Somos una empresa de educación tecnológica (edtech) con 5 años de vida y una trayectoria contrastada en el mundo de la educación financiera. Actualmente nos leen más de 10 millones de usuarios cada mes.
+            </p>
+            <p class="intro_text">
+                Queremos revolucionar el sector de la educación, mejorando el modelo tradicional, para hacerlo más didáctico, entretenido y personalizado. Para ello nos mezclamos innovación, entretenimiento y pedagogía. Todo ello en un equipo joven y dinámico, con ganas de crecer y desarrollarse.
+            </p>
+            <p class="intro_text">
+                Nuestra misión es que cualquier persona pueda impulsar su prosperidad y mejorar su calidad de vida mediante el conocimiento financiero, poniéndolo a su disposición sin importar en qué parte del mundo esté. Todo esto a través de una innovadora plataforma de educación en streaming con cursos entretenidos, prácticos y sencillos.
+            </p>
+            <h4 class="intro_subtitle">¿Te apasionan la educación y las finanzas?</h4>
+            <p class="intro_text">
+                ¡Únete a nosotros y revolucionemos la educación financiera!
+            </p>
+            <p class="intro_text">
+                Si eres una persona proactiva, con pasión por lo que haces y quieres mejorar el mundo que te rodea ¡te estamos buscando!
+            </p>
+            <p class="intro_text">
+                Si te interesa trabajar con nosotros mira las oportunidades que tenemos:
+            </p>
+        </section>
+        <section class="section_infoJob flex directionColumn">
+            <h2 class="infoJob_title">Creador de contenido financiero en prácticas</h2>
+            <p class="infoJob_text">
+                Buscamos una persona proactiva, con conocimientos financieros y con muchas ganas de aprender.
+            </p>
+            <section class="infoJob_subsection">
+                <h3 class="infoJob__subtitle">Requisitos indispensables:</h3>
+                <ul class="infoJob__ul flex directionColumn">
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Estudios superiores relacionados con la economía, las finanzas y la bolsa (Grado en ADE, Economía, Finanzas, Contabilidad o similar).
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Tener una actitud proactiva, con alta capacidad y ganas para aprender. 
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Ser una persona resolutiva y con capacidad para innovar, pensando “fuera de la caja”.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Ser un jugador de equipo capaz de trabajar eficazmente en una organización global.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Ganas de aportar y ayudar en lo que se necesite y trabajar en conjunto con otros equipos.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Mucho interés en el sector financiero y en el sector de la educación. Se valorará positivamente trabajos como profesor universitario y de diseño instruccional.
+                    </li>
+                </ul>
+            </section>
+            <section class="infoJob_subsection">
+                <h3 class="infoJob__subtitle">Responsabilidades</h3>
+                <ul class="infoJob__ul flex directionColumn">
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Ayudarnos a revolucionar la educación financiera creando contenido entretenido y fácil de entender.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Crear y redactar contenido para guías y cursos de inversión, transmitiendo los conocimientos de una forma didáctica y entretenida.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Realizar diseños instruccionales para que los cursos y demás vídeos sean dinámicos y entretenidos.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Dar soporte al equipo de contenidos y colaborar con el equipo de producción y arte.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Participar en la generación de ideas de contenido y comunicación, desde la planificación hasta la postproducción y publicación en Economipedia.
+                    </li>
+                </ul>
+            </section>
+            <section class="infoJob_subsection">
+                <h3 class="infoJob__subtitle">¿Qué ofrecemos?</h3>
+                <ul class="infoJob__ul flex directionColumn">
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Beca de 600€ (jornada completa) al mes.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Trabajo en nuestras cómodas oficinas de Madrid, con una política flexible de teletrabajo.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Flexibilidad horaria.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Oportunidades de crecimiento profesional en una startup naciente y con gran proyección en España y Latinoamérica.
+                    </li>
+                    <li class="infoJob__ul-li">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>Formar parte de un equipo amable y ambicioso en un ambiente joven, dinámico y ﬂexible.
+                    </li>
+                </ul>
+            </section>
+            <p class="infoJob_text">
+                ¡Para resumir! Si te gusta la idea de trabajar en una empresa que busca ayudar a las personas a impulsar su progreso, mediante la educación financiera y la tecnología, donde seguirás aprendiendo en un ambiente profesional y con muy buen rollo, entonces <span class="fontBolder">¡Esta es la empresa que buscas!</span>
+            </p>
+            <p class="infoJob_text">
+                Nos encantará conocerte, ¿te unes?
+            </p>
+            <p class="infoJob_text">
+                Con 💙, el equipo de Economipedia.
+            </p>
+            <div class="infoJob_data flex">
+                <div class="data_container">
+                    <h5 class="data__title">Departamento</h5>
+                    <p class="data__text">Contenidos</p>
+                </div>
+                <div class="data_container">
+                    <h5 class="data__title">Tipo de contrato</h5>
+                    <p class="data__text">Tiempo completo</p>
+                </div>
+                <div class="data_container">
+                    <h5 class="data__title">Localización</h5>
+                    <p class="data__text">Madrid</p>
+                </div>
+            </div>
+            <a href="" class="infoJob_link colorDark fontBolder">Preséntate al puesto</a>
+        </section>
+    </main>
+    <div id="redes">
+        <ul class="redes_ul flex directionColumn alignCenter">
+            <li class="redes__li">
+                <a href="https://www.facebook.com/Economipedia" class="social facebook flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.linkedin.com/company/economipedia/" class="social linked-in flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://twitter.com/economipedia" class="social twitter flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.youtube.com/c/Economipedia" class="social youtube flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.instagram.com/economipedia/" class="social instagram flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer" class="flex">
+        <div class="footer_container flex directionColumn alignCenter">
+            <img src="./assets/logoCrema2.png" alt="Logo de Economipedia 2" class="footer__img">
+            <ul class="warns_container flex">
+                <li class="warns__li">
+                    <a href="ayuda.html" class="warns__li-link colorLight">Ayuda</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Aviso legal</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Cookies</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Privacidad</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Términos y Condiciones</a>
+                </li>
+            </ul>
+            <p class="footer__copy colorLight">
+                Copyright © 2023 <a href="index.html" class="copy_link colorLight">Economipedia</a>
+            </p>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Diccionario económico</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="diccionario.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Diccionario económico
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Microeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Macroeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Finanzas
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Contenidos de economía</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="programas.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Programas
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="cursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Cursos de economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="recursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Recursos gratuitos
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="guias.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Guías
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="fuentes.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Fuentes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Sobre nosotros</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="sobre-economipedia.html" class="footer__ul-li-a colorLight">¿Qué es economipedia?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="sobre-nosotros.html" class="footer__ul-li-a colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="equipo.html" class="footer__ul-li-a colorLight">El equipo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="empleo.html" class="footer__ul-li-a colorLight">Empleo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="ayuda.html" class="footer__ul-li-a colorLight">Ayuda</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="contacto.html" class="footer__ul-li-a colorLight">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

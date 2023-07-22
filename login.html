@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iniciar Sesión | Economipedia</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="icon" href="./assets/logoAzul.ico">
+        <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <main id="main" class="flex">
+        <section class="section_welcome flex directionColumn alignCenter justifyCenter">
+            <div class="welcome_logo">
+                <a href="index.html" class="logo">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1" class="logo_img">
+                </a>
+            </div>
+            <h1 class="welcome_title">Bienvenido a <a href="index.html" class="welcome__a">Economipedia</a></h1>
+            <p class="welcome_text colorLight">
+                    En Economipedia generamos contenido educativo, para que cualquier persona pueda utilizarlo en su vida diaria, en su trabajo o en sus estudios. La misión de este proyecto consiste en acercar el mundo económico tanto a la persona de a pie, como a los profesionales financieros y a los estudiantes, por su gran importancia y repercusión en nuestras vidas.
+            </p>
+        </section>
+        <section class="section_login flex directionColumn alignCenter justifyCenter">
+            <img src="./assets/user.svg" alt="Imagen de usuario" class="login_img">
+            <h2 class="login_title">Iniciar Sesión</h2>
+            <form class="login_form flex directionColumn alignCenter">
+                <div class="form_container flex alignCenter">
+                    <label class="container_label">
+                        <i class="fa-regular fa-envelope"></i>
+                    </label>
+                    <input type="email" class="container_input" placeholder="Email" required>
+                </div>
+                <div class="form_container flex alignCenter">
+                    <label class="container_label">
+                        <i class="fa-solid fa-key"></i>
+                    </label>
+                    <input type="password" class="container_input" placeholder="Password" required>
+                </div>
+                <div class="form_container flex alignCenter">
+                    <input type="checkbox" id="remember" class="container_checkbox">
+                    <label for="remember" class="container_label">Mantener la sesión iniciada</label>
+                    <span></span>
+                    <a href="" class="container_link">
+                        ¿Olvidaste tu contraseña?
+                    </a>
+                </div>
+                <input type="submit" class="form_submit colorLight" value="Iniciar sesión">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

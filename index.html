@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economipedia | Escuela digital de educación financiera</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./assets/logoAzul.ico">
+    <script src="https://kit.fontawesome.com/d63180f787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex alignCenter">
+            <div class="navbar_logo flex">
+                <a href="index.html" class="logo_link flex">
+                    <img src="./assets/logoCrema1.png" alt="Logo de Economipedia 1">
+                </a>
+            </div>
+            <ul class="navbar_ul flex alignCenter">
+                <li class="navbar__li">
+                    <a href="programas.html" class="li_link colorLight">Programas</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="cursos.html" class="li_link colorLight">Cursos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="recursos.html" class="li_link colorLight">Recursos gratuitos</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="login.html" class="li_link colorLight link_login">Iniciar sesión</a>
+                </li>
+                <li class="navbar__li">
+                    <a href="precios.html" class="li_link link_precios fontBolder colorDark">$ Precios</a>
+                </li>
+            </ul>
+            <div class="navbar_search">
+                <input type="text" class="search_input" placeholder="Buscar...">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="navbar_mobile">
+                <input type="checkbox" id="mobile_check">
+                <label for="mobile_check" class="mobile_label">
+                    <span></span>
+                </label>
+                <ul class="mobile_ul flex directionColumn alignCenter">
+                    <li class="mobile__li">
+                        <a href="precios.html" class="mobile__li-link mobile_link-prices colorDark fontBolder">$ Precios</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="login.html" class="mobile__li-link mobile_link-login colorLight">Iniciar sesión</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="index.html" class="mobile__li-link colorLight">Inicio</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="programas.html" class="mobile__li-link colorLight">Programas</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="cursos.html" class="mobile__li-link colorLight">Cursos</a>
+                    </li>
+                    <li class="mobile__li">
+                        <a href="recursos.html" class="mobile__li-link colorLight">Recursos gratuitos</a>
+                    </li>
+                    <li class="space"></li>
+                    <li class="mobile-redes">Redes
+                        <ul class="mobile-redes_ul flex flexWrap justifyCenter">
+                            <li class="mobile-redes__li">
+                                <a href="https://www.facebook.com/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.linkedin.com/company/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-linked-in" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://twitter.com/economipedia" class="mobile-social flex alignCenter justifyCenter mobile-twitter" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.youtube.com/c/Economipedia" class="mobile-social flex alignCenter justifyCenter mobile-youtube" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="mobile-redes__li">
+                                <a href="https://www.instagram.com/economipedia/" class="mobile-social flex alignCenter justifyCenter mobile-instagram" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="home" class="flex justifyCenter alignCenter flexWrap">
+            <div class="home_container flex directionColumn">
+                <h1 class="home__title colorLight fontLighter">La mayor escuela digital de <span class="title_span">educación financiera</span> en español</h1>
+                <ul class="home__ul colorLight">
+                    <li class="home__ul-li">
+                        <i class="fa-solid fa-caret-right"></i>Más de 40 cursos y programas
+                    </li>
+                    <li class="home__ul-li">
+                        <i class="fa-solid fa-caret-right"></i>Más de 8.000 definiciones
+                    </li>
+                    <li class="home__ul-li">
+                        <i class="fa-solid fa-caret-right"></i>Más de 1.500 guías, análisis y artículos de actualidad
+                    </li>
+                    <li class="home__ul-li">
+                        <i class="fa-solid fa-caret-right"></i>Todo explicado de forma fácil y entretenida
+                    </li>
+                </ul>
+                <div class="home__links">
+                    <a href="cursos.html" class="links_a link_cursos fontBolder colorDark">Ver cursos</a>
+                    <a href="programas.html" class="links_a link_programas colorLight"><span class="link_programas-span">Ver programas</span></a>
+                </div>
+            </div>
+            <form class="home_form flex directionColumn">
+                <h4 class="form_title fontLighter">Únete a más de 130.000 personas que ya aprenden con nosotros</h4>
+                <p class="form_p">Recibe nuestros consejos semanales para mejorar tus finanzas y consigue una clase gratis:</p>
+                <input type="email" class="form_mail colorDark" placeholder="Email">
+                <div class="form_container">
+                    <input type="checkbox" class="form__check" id="terms">
+<!-- Aca falta conectar a los terminos y condiciones -->
+                    <label for="terms" class="form__label">Acepto los <a href="" class="label_a colorDark fontBolder">términos y condiciones</a>.</label>
+                </div>
+                <input type="submit" class="form_submit colorLight" value="Empieza gratis">
+            </form>
+        </section>
+        <section id="news" class="section flex directionColumn alignCenter">
+            <div class="news_resources flex">
+                <div class="resources_container container_inversion">
+                    <a href="inversion-en-bolsa.html" class="resources__link colorLight flex directionColumn alignCenter justifyCenter" target="_blank">
+                        <span class="link_title">Inversión en bolsa</span>
+                        <span class="link_text">Ver más<i class="fa-solid fa-angles-right"></i></span>
+                    </a>
+                </div>
+                <div class="resources_container container_educacion">
+                    <a href="educacion-financiera.html" class="resources__link colorLight flex directionColumn alignCenter justifyCenter" target="_blank">
+                        <span class="link_title">Educación financiera</span>
+                        <span class="link_text">Ver más<i class="fa-solid fa-angles-right"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="news_news">
+<!-- Aca se conecta con una guía de la pag guias, más adelante conectar. -->
+                <a href="" class="news_highlight colorLight flex directionColumn">
+                    <img src="./assets/brokers.avif" alt="Imagen como fondo de brokers" class="highlight_img">
+                    <div class="highlight_container">
+                        <h6 class="highlight__author fontLighter">Andrés Sevilla Arias | 3 de Febrero 2023</h6>
+                        <h3 class="highlight__title fontLighter">Mejores brokers para invertir en bolsa desde España en 2023</h3>
+                    </div>
+                </a>
+<!-- Aca se conecta con noticias de actualidad, más adelante conectar -->
+                <div class="news_container flex directionColumn">
+                    <h3 class="container_title">Actualidad y mercados</h3>
+                    <div class="container_new">
+                        <a href="" class="new_title colorDark fontBolder">La importancia del marketing digital en las empresas</a>
+                        <a href="" class="new_author colorDark">David Lópes Cabia</a>
+                        <p class="new_date colorDark">| 31 de Mayo, 2023</p>
+                    </div>
+                    <div class="container_new">
+                        <a href="" class="new_title colorDark fontBolder">¿Cuándo es un buen momento para comprar una vivienda?</a>
+                        <a href="" class="new_author colorDark">Federico J.Caballero Ferrari</a>
+                        <p class="new_date colorDark">| 30 de Mayo, 2023</p>
+                    </div>
+                    <a href="" class="container_link-more">
+                        Ver más<i class="fa-solid fa-angles-right"></i>
+                    </a>
+                </div>
+<!-- Aca se conecta con definiciones de diccionario, más adelante conectar -->
+                <div class="news_container flex directionColumn">
+                    <h3 class="container_title">Definiciones destacadas</h3>
+                    <a href="" class="container_link colorDark fontBolder">
+                        <i class="fa-solid fa-arrow-right"></i>Acciones
+                    </a>
+                    <a href="" class="container_link colorDark fontBolder">
+                        <i class="fa-solid fa-arrow-right"></i>Bonos
+                    </a>
+                    <a href="" class="container_link colorDark fontBolder">
+                        <i class="fa-solid fa-arrow-right"></i>Índice bursátil
+                    </a>
+                    <a href="" class="container_link colorDark fontBolder">
+                        <i class="fa-solid fa-arrow-right"></i>Economía
+                    </a>
+                    <a href="" class="container_link-more">
+                        Ver diccionario<i class="fa-solid fa-angles-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="learn" class="section flex directionColumn alignCenter">
+            <h2 class="sectionTitle fontLighter">Aprende de manera fácil y entretenida como nunca antes</h2>
+            <div class="learn_text flex">
+                <div class="text_paragraph flex directionColumn justifyCenter">
+                    <p>
+                        Los conceptos financieros pueden ser complejos, por eso nuestra metodología innovadora está diseñada para que aprender sea fácil y entretenido.
+                    </p>
+                    <p>
+                        Transforma tu futuro con los cursos líderes en economía, inversión y finanzas, aprendiendo lo realmente importante para progresar en el mundo de las finanzas.
+                    </p>
+                    <p>
+                        Toma las riendas y... ¡Alcanza tus metas personales y profesionales!
+                    </p>
+                </div>
+                <div class="text_img flex justifyCenter">
+                    <img src="./assets/img1.avif" alt="Imagen de Curso de ahorro y finanzas personales" class="learn__img">
+                </div>
+            </div>
+            <div class="learn_container flex flexWrap">
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon1.svg" alt="Imagen de un libro y una lamparita" class="data_img">
+                    <p class="data_text">Enfoque práctico y 100% aplicado al mundo real</p>
+                </div>
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon2.svg" alt="Imagen de un cabeza pensando" class="data_img">
+                    <p class="data_text">Enseñanza de forma fácil y entretenida</p>
+                </div>
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon3.svg" alt="Imagen de un profesional explicando" class="data_img">
+                    <p class="data_text">De la mano de profesionales financieros de primer nivel</p>
+                </div>
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon4.svg" alt="Imagen de un premio al mejor" class="data_img">
+                    <p class="data_text">Siempre la máxima calidad y rigor académico</p>
+                </div>
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon5.svg" alt="Imagen de una gráfica con laureles" class="data_img">
+                    <p class="data_text">Más de 11 años impulsando el conocimiento financiero</p>
+                </div>
+                <div class="container_data flex alignCenter">
+                    <img src="./assets/icon6.svg" alt="Imagen de un profesor explicando de manera online" class="data_img">
+                    <p class="data_text">Micro-learning. Aprende a tu ritmo, 100% online</p>
+                </div>
+            </div>
+            <div class="learn_subscribe flex directionColumn alignCenter fontBolder">
+                <a href="precios.html" class="subscribe_link colorDark">Suscribirse</a>
+                <p class="subscribe_text">
+                    Suscríbete a Economipedia Premium y accede de forma ilimitada a todos los cursos, programas, clases en directo, recursos e informes.
+                </p>
+            </div>
+        </section>
+        <section id="programs" class="section flex directionColumn alignCenter">
+            <h2 class="sectionTitle fontLighter">Alcanza tus metas personales y profesionales</h2>
+            <h5 class="sectionSubtitle fontLighter">Elige un programa educativo y sigue el orden de cursos para aprender de manera ágil y guiada</h5>
+            <div class="programs_container flex">
+<!-- Aca se conecta con un programa de la pag programas, más adelante conectar.-->
+                <a href="" class="container_program colorDark">
+                    <img src="./assets/abcEduFinanciera.avif" alt="Imagen de EL ABC de la educacion financiera" class="program_img">
+                    <h4 class="program_title">El ABC de la educación financiera: lecciones de vida</h4>
+                    <p class="program_text">
+                        Construye tu riqueza y toma las riendas de tu vida utilizando el poder de las finanzas, con esas lecciones que no te enseñaron en el colegio.
+                    </p>
+                </a>
+                <a href="" class="container_program colorDark">
+                    <img src="./assets/fundamentosInversion.avif" alt="Imagen de Fundamentos de inversión en bolsa" class="program_img">
+                    <h4 class="program_title">Fundamentos de inversión en bolsa: empieza a construir tu riqueza</h4>
+                    <p class="program_text">
+                        Consigue una rentabilidad atractiva con riesgos controlados invirtiendo de forma fácil. Este programa te enseña todo lo necesario para hacerlo.
+                    </p>
+                </a>
+            </div>
+            <blockquote class="programs_comment flex alignCenter">
+                <div class="comment_container">
+                    <p class="container_text fontBolder">
+                        La mejor inversión que puedes hacer es invertir en ti mismo.
+                    </p>
+                    <p class="container_text fontBolder">
+                        Cuanto más aprendas, más ganarás.
+                    </p>
+                    <p class="container_author">
+                        Warren Buffet
+                    </p>
+                </div> 
+                <img src="./assets/warrenBuffet.avif" alt="Imagen de Warren Buffet" class="comment_img">
+            </blockquote>
+        </section>
+        <section id="courses" class="section flex directionColumn alignCenter">
+            <h2 class="sectionTitle fontLighter">Acceso ilimitado a más de 40 cursos y certificaciones</h2>
+            <h5 class="sectionSubtitle fontLighter">Elige una categoría y ve directo al curso que más te interese</h5>
+            <ul class="courses_ul flex flexWrap">
+<!-- Aca se conecta con cursos de la pagina cursos, más adelante conectar -->
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Finanzas personales</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Análisis fundamental</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Renta variable</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Derivados</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Inversiones alternativas</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Gestión de carteras</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Economía</span>
+                    </a>
+                </li>
+                <li class="courses__li">
+                    <a href="" class="li_course colorDark">
+                        <span class="li_course-span">Cálculo financiero y estadística</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="cursos.html" class="courses_link colorLight">Ver cursos<i class="fa-solid fa-angles-right"></i></a>
+        </section>
+        <section id="resources" class="section flex directionColumn alignCenter">
+            <h2 class="sectionTitle fontLighter">Descubre los recursos gratuitos</h2>
+            <div class="resources2_container flex flexWrap">
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="diccionario.html" class="resource_link">
+                        <img src="./assets/diccionario.svg" alt="Imagen de un diccionario" class="resource__img">
+                    </a>
+                    <a href="diccionario.html" class="resource_link2">
+                        <h3 class="resource__title">Diccionario</h3>
+                    </a>
+                    <p class="resource_text">
+                        La mayor enciclopedia económica en español del mundo, con más de 8.000 explicaciones sencillas y 20 millones de visitas cada mes.
+                    </p>
+                </div>
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="educacion-financiera.html" class="resource_link">
+                        <img src="./assets/educacionFinanciera.svg" alt="Imagen de una escuela" class="resource__img">
+                    </a>
+                    <a href="educacion-financiera.html" class="resource_link2">
+                        <h3 class="resource__title">Educación financiera</h3>
+                    </a>
+                    <p class="resource_text">
+                        Todo lo que necesitas para tomar el control de tus finanzas. Consejos, guías, cursos y herramientas.
+                    </p>
+                </div>
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="inversion-en-bolsa.html" class="resource_link">
+                        <img src="./assets/inversionEnBolsa.svg" alt="Imagen de la inversión en bolsa" class="resource__img">
+                    </a>
+                    <a href="inversion-en-bolsa.html" class="resource_link2">
+                        <h3 class="resource__title">Inversión en bolsa</h3>
+                    </a>
+                    <p class="resource_text">
+                        Si buscas ideas de inversión, actualidad de mercados, formación, fondos de inversión o comparadores para elegir el mejor bróker, aquí encontrarás lo que necesitas para invertir en bolsa y aprender a invertir.
+                    </p>
+                </div>
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="guias.html" class="resource_link">
+                        <img src="./assets/guias.svg" alt="Imagen de una guía" class="resource__img">
+                    </a>
+                    <a href="guias.html" class="resource_link2">
+                        <h3 class="resource__title">Guías</h3>
+                    </a>
+                    <p class="resource_text">
+                        Guías explicativas con consejos o para descubrir nuevas temáticas.
+                    </p>
+                </div>
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="actualidad.html" class="resource_link">
+                        <img src="./assets/actualidad.svg" alt="Imagen de una noticia sobre economía" class="resource__img">
+                    </a>
+                    <a href="actualidad.html" class="resource_link2">
+                        <h3 class="resource__title">Actualidad</h3>
+                    </a>
+                    <p class="resource_text">
+                        Análisis semanales de lo más relevante que ocurre en la economía mundial.
+                    </p>
+                </div>
+                <div class="container_resource flex directionColumn alignCenter">
+                    <a href="rankings.html" class="resource_link">
+                        <img src="./assets/rankings.svg" alt="Imagen de un ranking" class="resource__img">
+                    </a>
+                    <a href="rankings.html" class="resource_link2">
+                        <h3 class="resource__title">Rankings</h3>
+                    </a>
+                    <p class="resource_text">
+                        Te aportamos listados económicos sobre países y empresas para ayudar a entender mejor cómo funciona la economía.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="section flex directionColumn alignCenter">
+            <h2 class="sectionTitle fontLighter reviews_title">Y mejor que nosotros... te lo explican nuestros alumnos</h2>
+            <div class="container_reviews flex flexWrap">
+                <blockquote class="reviews_opinion flex directionColumn alignCenter">
+                    <img src="./assets/josepEnrich.avif" alt="Imagen de una persona cualquiera" class="opinion_img">
+                    <p class="opinion_text">
+                        Ni las mejores escuelas de negocios dan una exposición tan clara y detallada.
+                    </p>
+                    <p class="opinion_author fontBolder">Josep Enrich</p>
+                </blockquote>
+                <blockquote class="reviews_opinion flex directionColumn alignCenter">
+                    <img src="./assets/abelMartinez.avif" alt="Imagen de una persona cualquiera" class="opinion_img">
+                    <p class="opinion_text">
+                        Me he ventilado 2 cursos en una semana, tomando apuntes y haciendo todos los ejercicios y actividades. La manera tan sencilla y entretenida de explicar las cosas hace que no me cueste nada ponerme con los cursos. Estoy deseando que llegue el momento para ponerme a verlos. Los veo casi como si fuera una serie de Netflix.
+                    </p>
+                    <p class="opinion_author fontBolder">Abel Martínez</p>
+                </blockquote>
+                <blockquote class="reviews_opinion flex directionColumn alignCenter">
+                    <img src="./assets/cristianJimenez.avif" alt="Imagen de una persona cualquiera" class="opinion_img">
+                    <p class="opinion_text">
+                        Mi sueño es ser inversor y emprendedor, y generar gran riqueza. Economipedia me está ayudando a conseguir mi sueño.
+                    </p>
+                    <p class="opinion_author fontBolder">Cristian Jiménez</p>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <div id="redes">
+        <ul class="redes_ul flex directionColumn alignCenter">
+            <li class="redes__li">
+                <a href="https://www.facebook.com/Economipedia" class="social facebook flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.linkedin.com/company/economipedia/" class="social linked-in flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://twitter.com/economipedia" class="social twitter flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.youtube.com/c/Economipedia" class="social youtube flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="redes__li">
+                <a href="https://www.instagram.com/economipedia/" class="social instagram flex justifyCenter alignCenter" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer id="footer" class="flex">
+        <div class="footer_container flex directionColumn alignCenter">
+            <img src="./assets/logoCrema2.png" alt="Logo de Economipedia 2" class="footer__img">
+            <ul class="warns_container flex">
+                <li class="warns__li">
+                    <a href="ayuda.html" class="warns__li-link colorLight">Ayuda</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Aviso legal</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Cookies</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Privacidad</a>
+                </li>
+                <li class="warns__li">
+                    <a href="" class="warns__li-link colorLight">Términos y Condiciones</a>
+                </li>
+            </ul>
+            <p class="footer__copy colorLight">
+                Copyright © 2023 <a href="index.html" class="copy_link colorLight">Economipedia</a>
+            </p>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Diccionario económico</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="diccionario.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Diccionario económico
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Microeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Macroeconomía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Definiciones de Finanzas
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Contenidos de economía</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="programas.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Programas
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="cursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Cursos de economía
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="recursos.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Recursos gratuitos
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="guias.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Guías
+                    </a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="fuentes.html" class="footer__ul-li-a colorLight">
+                        <i class="fa-solid fa-angle-right"></i>Fuentes
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_container">
+            <h6 class="footer__title fontLighter">Sobre nosotros</h6>
+            <ul class="footer__ul flex directionColumn">
+                <li class="footer__ul-li">
+                    <a href="sobre-economipedia.html" class="footer__ul-li-a colorLight">¿Qué es economipedia?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="sobre-nosotros.html" class="footer__ul-li-a colorLight">¿Quiénes somos?</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="equipo.html" class="footer__ul-li-a colorLight">El equipo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="empleo.html" class="footer__ul-li-a colorLight">Empleo</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="ayuda.html" class="footer__ul-li-a colorLight">Ayuda</a>
+                </li>
+                <li class="footer__ul-li">
+                    <a href="contacto.html" class="footer__ul-li-a colorLight">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
